@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Needs</title>
+    <link rel="shortcut icon" type="x-icon" href="../icon/Everyday needs-logo.jpeg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins&display=swap');
+
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        #nav {
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid rgb(172, 169, 169);
+        }
+
+        #nav img {
+            height: 80px
+        }
+
+        #pages {
+            width: 950px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #pages a {
+            padding-top: 50px;
+            height: 100%;
+            font-weight: 500;
+            color: black;
+            text-decoration: none;
+        }
+
+        #pages a:hover {
+            color: rgb(29, 173, 173);
+        }
+
+        #pages a:nth-child(4) {
+            color: rgb(228, 92, 92);
+        }
+
+        #credentialsPart {
+            height: inherit;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #credentialsPart>i {
+            font-size: 24px;
+        }
+
+        .banner {
+            margin: 8px;
+            height: 220px;
+            display: flex;
+        }
+
+        .banner .left {
+            width: 35%;
+            padding: 34px 0px 0px 34px;
+            background-color: #3fbb2c;
+        }
+
+        .banner .left h1:nth-child(1) {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .banner .right {
+            width: 65%;
+            background-color: #dae1e3;
+            padding: 34px;
+        }
+
+        .banner .right .first {
+            line-height: 50px;
+        }
+
+        .banner .right .second {
+            line-height: 55px;
+        }
+
+        .banner .right .second div {
+            width: 60%;
+            border: 1px solid rgb(106, 106, 106);
+        }
+
+        #bagpackSection {
+            height: 610px;
+        }
+
+        #bagpackSection img {
+            height: 100%;
+            width: 100%;
+        }
+
+        #backpacks {
+            position: absolute;
+            display: block;
+            height: inherit;
+            width: 40%;
+        }
+
+        #shop-categories {
+            height: 375px;
+            padding: 34px;
+            border: 1px solid black;
+            display: flex;
+            color: rgb(76, 75, 75);
+        }
+
+        #shop-categories .left {
+            /* border: 1px solid black; */
+            height: inherit;
+            padding-top: 140px;
+            padding-left: 50px;
+            box-sizing: border-box;
+            width: 28%;
+            margin-right: 30px;
+        }
+
+        #shop-categories .right {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #shop-categories .right .card {
+            padding: 20px;
+            width: 25%;
+        }
+
+        #shop-categories .right .card img {
+            width: 100%;
+            object-fit: cover;
+            height: 90%;
+        }
+
+        #shop-categories .right .righbtn {
+            background: none;
+            border: none;
+            background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            font-size: 24px;
+            right: 54px;
+            top: 1110px;
+            cursor: pointer;
+            z-index: 4;
+        }
+        #shop-categories .right .leftbtn {
+            z-index: 4;
+            background: none;
+            border: none;
+            background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            font-size: 24px;
+            right: 1010px;
+            top: 1110px;
+            cursor: pointer;
+        }
+
+        #watchbandSection #watchbands {
+            position: absolute;
+            display: block;
+            height: 100%;
+            width: 40%;
+        }
+
+        #newArrivals {
+            background-color: white;
+            position: absolute;
+            /* display: flex; */
+            display: none;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        #newArrivals .first {
+            width: 15%;
+            padding: 34px;
+            border-right: 1px solid rgb(172, 169, 169);
+        }
+
+        #newArrivals .first h4 {
+            margin-bottom: 20px;
+        }
+
+        #newArrivals .first .contents li {
+            list-style: none;
+            line-height: 28px;
+        }
+
+        #newArrivals .first .contents li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #newArrivals .first .contents li a:hover {
+            text-decoration: underline;
+        }
+
+        #newArrivals .second {
+            padding: 34px;
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            border-right: 1px solid rgb(172, 169, 169);
+        }
+
+        #newArrivals img {
+            height: 275px;
+            width: 275px;
+        }
+
+        #casesSleeves {
+            /* display: flex; */
+            display: none;
+            position: absolute;
+            background-color: white;
+        }
+
+        #casesSleeves p:hover {
+            text-decoration: underline;
+        }
+
+        #casesSleeves .first {
+            padding: 24px;
+            width: 48%;
+            border-right: 1px solid rgb(172, 169, 169);
+        }
+
+        #casesSleeves .first h3 {
+            margin-bottom: 12px;
+        }
+
+        #casesSleeves .insideContainer {
+            display: flex;
+            line-height: 24px;
+            justify-content: space-between;
+        }
+
+        #casesSleeves .second {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #casesSleeves .second img {
+            width: 70%;
+            object-fit: cover;
+            height: 100%;
+        }
+
+        #casesSleeves .second .insideFirst {
+            padding-top: 22px;
+            padding-left: 20px;
+            line-height: 50px;
+        }
+
+        #casesSleeves .first .insideContainer h3 {
+            margin-bottom: 8px;
+        }
+
+        #casesSleeves .first .insideContainer a {
+            color: rgb(71, 154, 154);
+        }
+
+        #accessories {
+            position: absolute;
+            background-color: white;
+            display: none;
+            justify-content: space-between;
+            line-height: 34px;
+        }
+
+        #accessories img {
+            width: 20%;
+            object-fit: cover;
+            height: inherit;
+        }
+
+        #accessories p {
+            font-weight: lighter;
+        }
+
+        #accessories p:hover {
+            text-decoration: underline;
+        }
+
+        #accessories .first {
+            padding: 20px;
+            width: 12%;
+            border-right: 1px solid rgb(172, 169, 169);
+            cursor: pointer;
+        }
+
+        #accessories .second {
+            padding: 20px;
+            width: 12%;
+            border-right: 1px solid rgb(172, 169, 169);
+            cursor: pointer;
+        }
+
+        #accessories .third {
+            padding: 20px;
+            width: 12%;
+            border-right: 1px solid rgb(172, 169, 169);
+            cursor: pointer;
+        }
+
+        #accessories .four {
+            padding: 20px;
+            width: 12%;
+            cursor: pointer;
+            border-right: 1px solid rgb(172, 169, 169);
+        }
+
+        #accessories .five {
+            cursor: pointer;
+            padding: 20px;
+            width: 12%;
+            line-height: 40px;
+        }
+
+        #accessories .first h4 {
+            margin-bottom: 8px;
+        }
+
+        #accessories .second h4 {
+            margin-bottom: 8px;
+        }
+
+        #accessories .third h4 {
+            margin-bottom: 8px;
+        }
+
+        #accessories .four h4 {
+            margin-bottom: 8px;
+        }
+
+        #bagsWallets {
+            position: absolute;
+            background-color: white;
+            display: none;
+            justify-content: space-between;
+            line-height: 34px;
+        }
+
+        #bagsWallets img {
+            width: 20%;
+            object-fit: cover;
+            height: inherit;
+        }
+
+        #bagsWallets p {
+            font-weight: lighter;
+        }
+
+        #bagsWallets p:hover {
+            text-decoration: underline;
+        }
+
+        #bagsWallets div {
+            padding: 25px 30px;
+            width: 15%;
+            border-right: 1px solid rgb(172, 169, 169);
+            cursor: pointer;
+        }
+
+        #bagsWallets img {
+            width: 25%;
+        }
+
+        #bagsWallets div h4 {
+            margin-bottom: 8px;
+        }
+
+        #bagsWallets .five {
+            line-height: 50px;
+        }
+
+        #homeOffice {
+            position: absolute;
+            background-color: white;
+            display: none;
+            justify-content: space-between;
+            line-height: 34px;
+        }
+
+        #homeOffice img {
+            width: 20%;
+            object-fit: cover;
+            height: inherit;
+        }
+
+        #homeOffice p {
+            font-weight: lighter;
+        }
+
+        #homeOffice p:hover {
+            text-decoration: underline;
+        }
+
+        #homeOffice div {
+            padding: 25px 30px;
+            width: 14%;
+            border-right: 1px solid rgb(172, 169, 169);
+            cursor: pointer;
+        }
+
+        #homeOffice img {
+            width: 28%;
+        }
+
+        #homeOffice div h4 {
+            margin-bottom: 8px;
+        }
+
+        #homeOffice .five {
+            line-height: 50px;
+        }
+
+        #collections {
+            position: absolute;
+            background-color: white;
+            display: none;
+            justify-content: space-between;
+            line-height: 34px;
+        }
+
+        #collections img {
+            width: 20%;
+            object-fit: cover;
+            height: inherit;
+        }
+
+        #collections p {
+            font-weight: lighter;
+        }
+
+        #collections p:hover {
+            text-decoration: underline;
+        }
+
+        #collections div {
+            padding: 25px 30px;
+            width: 12%;
+            border-right: 1px solid rgb(172, 169, 169);
+            cursor: pointer;
+        }
+
+        #collections img {
+            width: 52%;
+        }
+
+        #collections div h4 {
+            margin-bottom: 8px;
+        }
+
+        #collections .five {
+            line-height: 50px;
+        }
+
+        #gifts {
+            position: absolute;
+            background-color: white;
+            display: none;
+            justify-content: space-between;
+            line-height: 34px;
+        }
+
+        #gifts img {
+            width: 20%;
+            object-fit: cover;
+            height: inherit;
+        }
+
+        #gifts p {
+            font-weight: lighter;
+        }
+
+        #gifts p:hover {
+            text-decoration: underline;
+        }
+
+        #gifts div {
+            padding: 25px 30px;
+            width: 15%;
+            border-right: 1px solid rgb(172, 169, 169);
+            cursor: pointer;
+        }
+
+        #gifts img {
+            width: 35%;
+        }
+
+        #gifts div h4 {
+            margin-bottom: 8px;
+        }
+
+        #gifts .five {
+            line-height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <img src="../icon/Everyday needs-logos_black.png" alt="Store for Mobile Covers and Accessories">
+        <div id="pages">
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">CASES & SLEEVES</a>
+            <a href="#">ACCESSORIES</a>
+            <a href="#">SALE</a>
+            <a href="#">BAGS & WALLETS</a>
+            <a href="#">HOME OFFICE</a>
+            <a href="#">COLLECTION</a>
+            <a href="#">GIFTING</a>
+        </div>
+        <div id="credentialsPart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div id="newArrivals">
+        <div class="first">
+            <h4 class="heading">
+                NEW ARRIVALS
+            </h4>
+            <div class="contents">
+                <ul>
+                    <li><a href="#">Desks</a></li>
+                    <li><a href="#">Charging Solutions</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Macbook Sleeves</a></li>
+                    <li><a href="#">Messenger Bags</a></li>
+                    <li><a href="#">Eyewear Cases</a></li>
+                    <li><a href="#">Watchbands</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="second">
+            <a href="#">
+                <img src="https://images.dailyobjects.com/marche/assets/images/other/recess-collection-dropdown-image-for-new-arrival.jpg?tr=cm-pad_crop,v-2?tr=cm-pad_resize,w-453,dpr-1"
+                    alt="">
+            </a>
+            <a href="#">
+                <img src="https://images.dailyobjects.com/marche/assets/images/other/planner-dropdown-image-for-new-arrival-2-new.jpg?tr=cm-pad_crop,v-2?tr=cm-pad_resize,w-453,dpr-1"
+                    alt="">
+            </a>
+            <a href="#">
+                <img src="https://images.dailyobjects.com/marche/colllectionPage/desk/desk-collection-new-arrival-homepage-carousal.jpg?tr=cm-pad_crop,v-2?tr=cm-pad_resize,w-453,dpr-1"
+                    alt="">
+            </a>
+        </div>
+    </div>
+    <div id="casesSleeves">
+        <div class="first">
+            <h3>CASES</h3>
+            <div class="insideContainer">
+                <div class="insideOne">
+                    <h5>APPLE</h5>
+                    <p>iPhone 13</p>
+                    <p>iPhone 14</p>
+                    <p>iPhone 14 Pro Max...</p>
+                    <p>iPhone 14 Pro</p>
+                    <p>iPhone 14 Plus</p>
+                    <p>iPhone 12</p>
+                    <p>iPhone 13 Pro</p>
+                    <p>iPhone 11</p>
+                    <p>iPhone 13 Pro Max</p>
+                    <p>iPhone XR</p>
+                    <p>iPhone 12 Pro Max</p>
+                    <p>iPhone 12 Pro</p>
+                    <p>iPhone 12 Mini</p>
+                    <p>iPhone 11 Pro</p>
+                    <p>iPhone 11 Pro Max</p>
+                    <p>iPhone X</p>
+                    <p>iPhone SE 2020</p>
+                    <p>iPhone XS</p>
+                    <a href="#"> View All Models+</a>
+                </div>
+                <div class="insideTwo">
+                    <h5>SAMSUNG</h5>
+                    <p>Galaxy A53</p>
+                    <p>Galaxy A33</p>
+                    <p>Galaxy S22 Ultra</p>
+                    <p>Galaxy Z Fold 3</p>
+                    <p>Galaxy S20 FE</p>
+                    <p>Galaxy S21 Ultra</p>
+                    <p>Galaxy S21</p>
+                    <p>Galaxy S21 FE</p>
+                    <p>Galaxy S21 Plus</p>
+                    <p>Galaxy S20 Plus</p>
+                    <p>Galaxy Z Flip 3</p>
+                    <p>Galaxy S22</p>
+                    <p>Galaxy A52</p>
+                    <p>Galaxy Note 10 Plus</p>
+                    <p>Galaxy A51</p>
+                    <p>Galaxy Note 20 Ultra</p>
+                    <a href="#">View All Models+</a>
+                </div>
+                <div class="insideThree">
+                    <h5>ONEPLUS</h5>
+                    <p>OnePlus 10R</p>
+                    <p>OnePlus Nord</p>
+                    <p>One Plus 9R</p>
+                    <p>OnePlus 9</p>
+                    <p>OnePlus 8T</p>
+                    <p>OnePlus 9RT</p>
+                    <p>OnePlus 10 Pro</p>
+                    <p>OnePlus 7</p>
+                    <p>OnePlus 9 Pro</p>
+                    <p>OnePlus 7T</p>
+                    <p>OnePlus Nord CE</p>
+                    <p>OnePlus 8</p>
+                    <p>OnePlus Nord 2</p>
+                    <p>OnePlus 7 Pro</p>
+                    <a href="#">View All Models+</a>
+                </div>
+                <div class="insideFour">
+                    <h5>OTHER BRANDS</h5>
+                    <p>Nothing</p>
+                    <p>Xiaomi</p>
+                    <p>Oppo</p>
+                    <p>Google</p>
+                    <p>Motorola</p>
+                    <p>Vivo</p>
+                </div>
+                <div class="insideFive">
+                    <h5>IPAD</h5>
+                    <p>iPad Pro 11 2021</p>
+                    <p>iPad Air 4 10.9</p>
+                    <p>iPad 9 10.2</p>
+                    <p>iPad 7 10.2</p>
+                    <p>iPad 8 10.2</p>
+                    <p>iPad Mini 6</p>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="insideFirst">
+                <h5>LAPTOP/MACBOOK SLEEVES</h5>
+                <h5>AIRPOD CASES</h5>
+                <h5>MESSENGER BAGS</h5>
+                <h5>iPAD COVERS & SLEEVES</h5>
+                <h5>PASSPORT COVERS</h5>
+                <h5>EYEWEAR CASES</h5>
+                <h5>AIRTAG CASES</h5>
+                <h5>APPLE TV REMOTE CASES</h5>
+            </div>
+            <!-- <div class="insideSecond"> -->
+            <img src="https://images.dailyobjects.com/marche/assets/images/other/airpods-cases-sleeves-page-dropdown-image.jpg?tr=cm-pad_crop,v-2,w-1000,w-166,h-653,dpr-1"
+                alt="">
+            <!-- </div> -->
+        </div>
+    </div>
+    <div id="accessories">
+        <div class="first">
+            <h4>WATCH ACCESSORIES</h4>
+            <p>Apple Watchbands</p>
+            <p>Universal Watchbands</p>
+            <p>Apple Watch Cases</p>
+            <p>Apple Watch Stands</p>
+        </div>
+        <div class="second">
+            <h4>SCREEN GUARD</h4>
+            <p>For Phone</p>
+            <p>For Apple Watch</p>
+            <p>For Macbook</p>
+            <p>For iPad</p>
+        </div>
+        <div class="third">
+            <h4>STANDS</h4>
+            <p>For Apple Watch</p>
+            <p>For Mobile</p>
+            <p>For iPad</p>
+            <p>For Laptop</p>
+            <p>For MagSafe</p>
+            <p>For Monitor</p>
+        </div>
+        <div class="four">
+            <h4>CHARGING SOLUTIONS</h4>
+            <p>Charging Stations</p>
+            <p>Chargers and Cables</p>
+            <p>Wireless Chargers</p>
+        </div>
+        <div class="five">
+            <h4>ORGANISERS</h4>
+            <h4>PHONE WALLET</h4>
+            <h4>KEYCHAIN</h4>
+            <h4>DRINKWARE</h4>
+            <h4>MASKS</h4>
+        </div>
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/accessories-update-1.jpg?tr=cm-pad_crop,v-2,w-1000,w-199,h-380,dpr-1"
+            alt="" class="six">
+    </div>
+    <div id="bagsWallets">
+        <div class="first">
+            <h4>WALLETS</h4>
+            <p>Women's Wallets</p>
+            <p>Card Wallets</p>
+            <p>Men's Wallets</p>
+            <p>Bi-Fold Wallets</p>
+        </div>
+        <div class="second">
+            <h4>CROSSBODY BAG</h4>
+            <p>Tarp</p>
+            <p>Box</p>
+            <p>Scout</p>
+            <p>Trapeze</p>
+            <p>Orbis</p>
+            <p>Tallboi</p>
+            <p>Arch</p>
+            <p>Shuttle Phone</p>
+            <p>08:01</p>
+        </div>
+        <div class="third">
+            <h4>TOTE BAG</h4>
+            <p>Tarp</p>
+            <p>Buoyant</p>
+            <p>Classic</p>
+            <p>Fatty</p>
+            <p>08:01</p>
+        </div>
+        <div class="five">
+            <h4>MESSENGER BAG</h4>
+            <h4>BACKPACKS</h4>
+            <h4>DUFFLE BAGS</h4>
+            <h4>POUCHES</h4>
+        </div>
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/bags-and-wallets-dropdown-update-4.jpg?tr=cm-pad_crop,v-2,w-1000,w-259,h-380,dpr-1"
+            alt="" class="six">
+    </div>
+    <div id="homeOffice">
+        <div class="first">
+            <h4>STANDS</h4>
+            <p>Watch</p>
+            <p>Laptop</p>
+            <p>Mobile</p>
+            <p>MagSafe</p>
+            <p>iPad</p>
+            <p>Monitor</p>
+        </div>
+        <div class="second">
+            <h4>ORGANISERS</h4>
+            <p>Tech Kit</p>
+            <p>Cable Organisers</p>
+            <p>Pouches</p>
+            <p>Folio</p>
+            <p>Planner</p>
+        </div>
+        <div class="third">
+            <h4>DESKS</h4>
+            <p>Platform Collection</p>
+            <p>Desk Mat</p>
+            <p>Mouse Pad</p>
+            <p>Trays & coasters</p>
+        </div>
+        <div class="five">
+            <h4>STATIONARY</h4>
+            <h4>DRINKWARE</h4>
+            <h4>CHARGING SOLUTIONS</h4>
+        </div>
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/home-office-update-stationary-dropdown-up.png?tr=cm-pad_resize,v-2,w-1000,w-259,h-380,dpr-1"
+            alt="" class="six">
+    </div>
+    <div id="collections">
+        <div class="first">
+            <h4>COLLECTION</h4>
+            <p>Recess Collection</p>
+            <p>Platform Collection</p>
+            <p>Tarp Collection</p>
+            <p>Claymen Collection</p>
+            <p>Fleet Collection</p>
+            <p>08:01 Collection</p>
+            <p>Wallet Collection</p>
+            <p>Couleur Collection</p>
+        </div>
+        <div class="second">
+            <h4>STUDIO</h4>
+            <p>Tarot Collection</p>
+            <p>DreamScape Collection</p>
+            <p>Mela Collection</p>
+            <p>ArcadePxl Collection</p>
+            <p>Zodiac Collection</p>
+            <p>Misfit Millennials Collection</p>
+            <p>Skateboard Subculture Collection</p>
+        </div>
+        <div class="third">
+            <h4>COLLABORATIONS</h4>
+            <p>Everyday Needs x Smartsters</p>
+        </div>
+        <img src="https://images.dailyobjects.com/marche/assets/images/homepage/desktop/new-collection-dropdown-desktop-update-2.jpg?tr=cm-pad_crop,v-2,w-1000,w-149,h-380,dpr-1"
+            alt="" class="six">
+    </div>
+    <div id="gifts">
+        <div class="first">
+            <h4>CORPORATE GIFTING</h4>
+            <p>Employee Kits</p>
+            <p>Festive Kits</p>
+        </div>
+        <div class="five">
+            <h4>HOLIDAY GIFTING BUNDLES</h4>
+            <h4>E-GIFT CARDS</h4>
+        </div>
+        <div class="third">
+            <h4>GIFTS BY BUDGET</h4>
+            <p>Gifts Under 1000</p>
+            <p>Gifts Under 2500</p>
+            <p>Gift Under 5000</p>
+        </div>
+        <div class="two">
+            <h4>GIFTS BY PERSONAS</h4>
+            <p>Gifts For The Techie</p>
+            <p>Gifts For The Organiser</p>
+            <p>Gifts For The Workaholic</p>
+            <p>Gifts For The Traveller</p>
+        </div>
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/gifting-page-drop-down-banner-1-update-up.png?tr=cm-pad_resize,v-2,w-1000,w-259,h-380,dpr-1"
+            alt="" class="six">
+    </div>
+    <div class="banner">
+        <div class="left">
+            <h1>UPTO 70% OFF</h1>
+            <h1>NEW YEAR SALE</h1>
+        </div>
+        <div class="right">
+            <div class="first">
+                <h1>FREE <i class="fa-solid fa-arrow-right-long"></i></h1>
+            </div>
+            <div class="second">
+                <h1>
+                    DUFFLE BAGS WORTH &#x20B9;2999 ON ORDERS ABOVE &#x20B9;2499
+                </h1>
+                <div></div>
+                <h1>BI-FOLD WALLET WORTH &#x20B9;1999 ON ORDERS ABOVE &#x20B9; 1999</h1>
+            </div>
+        </div>
+    </div>
+    <div id="bagpackSection">
+        <a href="#" id="backpacks"></a>
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/backpack-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1"
+            alt="">
+    </div>
+    <div id="shop-categories">
+        <div class="left">
+            <h1>SHOP CATEGORIES</h1>
+            <p>Now browse our selection of carefully curated products in sorted categories.</p>
+        </div>
+        <div class="right">
+            <button class="leftbtn" onclick="funcleft()">
+                <i class="fa-sharp fa-solid fa-angle-left"></i>
+            </button>
+            <div class="card">
+                <a href="#">
+                <img src="https://images.dailyobjects.com/marche/assets/images/other/cases-ups.jpg?tr=cm-pad_crop,v-2,w-1001,dpr-1"
+                    alt="">
+                </a>
+                <p>Cases</p>
+            </div>
+            <div class="card">
+                <a href="#">
+                <img src="https://images.dailyobjects.com/marche/assets/images/other/laptop-sleeve-ups.jpg?tr=cm-pad_crop,v-2,w-1001,dpr-1"
+                    alt="">
+                </a>
+                <p>Laptop Sleeves</p>
+            </div>
+            <div class="card">
+                <a href="#">
+                <img src="https://images.dailyobjects.com/marche/assets/images/other/charging-solution-ups.jpg?tr=cm-pad_crop,v-2,w-1001,dpr-1"
+                    alt="">
+                </a>
+                <p>Charging Solutions</p>
+            </div>
+            <div class="card">
+                <a href="#">
+                <img src="https://images.dailyobjects.com/marche/assets/images/other/tote-ups.jpg?tr=cm-pad_crop,v-2,w-1001,dpr-1"
+                    alt="">
+                </a>
+                <p>Tote Bags</p>
+            </div>
+            <button class="righbtn" onclick="funcright()">
+                <i class="fa-sharp fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+    <div id="watchbandSection">
+        <a href="#" id="watchbands"></a>
+        <img
+            src="https://images.dailyobjects.com/marche/assets/images/other/watchbands-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1">
+    </div>
+    <script src="https://kit.fontawesome.com/e2f54f564d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
