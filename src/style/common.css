@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(237, 235, 235);
+
+}
+#nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(172, 169, 169);
+}
+
+#nav img {
+    height: 80px
+}
+
+#pages {
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pages a {
+    padding-top: 50px;
+    height: 100%;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+#pages a:hover {
+    color: rgb(29, 173, 173);
+}
+
+
+#credentialsPart {
+    height: inherit;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#credentialsPart i {
+    font-size: 26px;
+    color: black;
+}
+
+#newArrivals {
+    background-color: rgb(237, 235, 235);
+    position: absolute;
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#newArrivals .first {
+    width: 15%;
+    padding: 34px;
+    border-right: 1px solid rgb(172, 169, 169);
+}
+
+#newArrivals .first h4 {
+    margin-bottom: 20px;
+}
+
+#newArrivals .first .contents li {
+    list-style: none;
+    line-height: 28px;
+}
+
+#newArrivals .first .contents li a {
+    text-decoration: none;
+    color: black;
+}
+
+#newArrivals .first .contents li a:hover {
+    text-decoration: underline;
+}
+
+#newArrivals .second {
+    padding: 34px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border-right: 1px solid rgb(172, 169, 169);
+}
+
+#newArrivals img {
+    height: 275px;
+    width: 275px;
+}
+
+#casesSleeves {
+    /* display: flex; */
+    display: none;
+    position: absolute;
+    background-color: rgb(237, 235, 235);
+}
+
+#casesSleeves p:hover {
+    text-decoration: underline;
+}
+
+#casesSleeves .first {
+    padding: 24px;
+    width: 48%;
+    border-right: 1px solid rgb(172, 169, 169);
+}
+
+#casesSleeves .first h3 {
+    margin-bottom: 12px;
+}
+
+#casesSleeves .insideContainer {
+    display: flex;
+    line-height: 24px;
+    justify-content: space-between;
+}
+
+#casesSleeves .second {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#casesSleeves .second img {
+    width: 70%;
+    object-fit: cover;
+    height: 100%;
+}
+
+#casesSleeves .second .insideFirst {
+    padding-top: 22px;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+#casesSleeves .first .insideContainer h3 {
+    margin-bottom: 8px;
+}
+
+#casesSleeves .first .insideContainer a {
+    color: rgb(71, 154, 154);
+}
+
+#accessories {
+    position: absolute;
+    background-color: rgb(237, 235, 235);
+    display: none;
+    justify-content: space-between;
+    line-height: 34px;
+}
+
+#accessories img {
+    width: 20%;
+    object-fit: cover;
+    height: inherit;
+}
+
+#accessories p {
+    font-weight: lighter;
+}
+
+#accessories p:hover {
+    text-decoration: underline;
+}
+
+#accessories .first {
+    padding: 20px;
+    width: 12%;
+    border-right: 1px solid rgb(172, 169, 169);
+    cursor: pointer;
+}
+
+#accessories .second {
+    padding: 20px;
+    width: 12%;
+    border-right: 1px solid rgb(172, 169, 169);
+    cursor: pointer;
+}
+
+#accessories .third {
+    padding: 20px;
+    width: 12%;
+    border-right: 1px solid rgb(172, 169, 169);
+    cursor: pointer;
+}
+
+#accessories .four {
+    padding: 20px;
+    width: 12%;
+    cursor: pointer;
+    border-right: 1px solid rgb(172, 169, 169);
+}
+
+#accessories .five {
+    cursor: pointer;
+    padding: 20px;
+    width: 12%;
+    line-height: 40px;
+}
+
+#accessories .first h4 {
+    margin-bottom: 8px;
+}
+
+#accessories .second h4 {
+    margin-bottom: 8px;
+}
+
+#accessories .third h4 {
+    margin-bottom: 8px;
+}
+
+#accessories .four h4 {
+    margin-bottom: 8px;
+}
+
+#bagsWallets {
+    position: absolute;
+    background-color: rgb(237, 235, 235);
+    display: none;
+    justify-content: space-between;
+    line-height: 34px;
+}
+
+#bagsWallets img {
+    width: 20%;
+    object-fit: cover;
+    height: inherit;
+}
+
+#bagsWallets p {
+    font-weight: lighter;
+}
+
+#bagsWallets p:hover {
+    text-decoration: underline;
+}
+
+#bagsWallets div {
+    padding: 25px 30px;
+    width: 15%;
+    border-right: 1px solid rgb(172, 169, 169);
+    cursor: pointer;
+}
+
+#bagsWallets img {
+    width: 25%;
+}
+
+#bagsWallets div h4 {
+    margin-bottom: 8px;
+}
+
+#bagsWallets .five {
+    line-height: 50px;
+}
+
+#homeOffice {
+    position: absolute;
+    background-color: rgb(237, 235, 235);
+    display: none;
+    justify-content: space-between;
+    line-height: 34px;
+}
+
+#homeOffice img {
+    width: 20%;
+    object-fit: cover;
+    height: inherit;
+}
+
+#homeOffice p {
+    font-weight: lighter;
+}
+
+#homeOffice p:hover {
+    text-decoration: underline;
+}
+
+#homeOffice div {
+    padding: 25px 30px;
+    width: 14%;
+    border-right: 1px solid rgb(172, 169, 169);
+    cursor: pointer;
+}
+
+#homeOffice img {
+    width: 28%;
+}
+
+#homeOffice div h4 {
+    margin-bottom: 8px;
+}
+
+#homeOffice .five {
+    line-height: 50px;
+}
+
+#collections {
+    position: absolute;
+    background-color: rgb(237, 235, 235);
+    display: none;
+    justify-content: space-between;
+    line-height: 34px;
+}
+
+#collections img {
+    width: 20%;
+    object-fit: cover;
+    height: inherit;
+}
+
+#collections p {
+    font-weight: lighter;
+}
+
+#collections p:hover {
+    text-decoration: underline;
+}
+
+#collections div {
+    padding: 25px 30px;
+    width: 12%;
+    border-right: 1px solid rgb(172, 169, 169);
+    cursor: pointer;
+}
+
+#collections img {
+    width: 52%;
+}
+
+#collections div h4 {
+    margin-bottom: 8px;
+}
+
+#collections .five {
+    line-height: 50px;
+}
+
+#exclusiveAccess {
+    font-size: 26px;
+    text-align: center;
+    margin: 26px auto;
+}
+#exclusiveAccess .input{
+    margin: 40px auto;
+}
+#exclusiveAccess input[type='text']{
+    padding: 14px;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    margin-right: -8px;
+}
+#exclusiveAccess button{
+    padding: 14px;
+    font-size: 24px;
+    border: none;
+    background-color: rgb(185, 182, 182);
+}
+#exclusiveAccess .lower p{
+    font-size: 18px;
+}
+
+#exclusiveAccess .lower{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+.cond{
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 180px;
+}
+#networkSection{
+    display: flex;
+    height: 310px;
+    border-bottom: 1px solid silver;
+}
+#networkSection .left{
+    padding: 20px;
+    display: flex;
+    width: 70%;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+    justify-content: space-around;
+    line-height: 26px;
+}
+#networkSection .left h3{
+    margin-bottom: 4px;
+}
+#networkSection .left .first{
+    width: 26%;
+}
+#networkSection .right{
+    width: 30%;
+    height: 100%;
+}
+#networkSection .right .card{
+    border-top: 1px solid silver;
+    padding: 0px 20px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid silver;
+}
+#networkSection .right .card:nth-child(2){
+    border-bottom: none;
+}
+#paymentSection{
+    margin: 35px 0px;
+    text-align: center;
+}
+#paymentSection h4{
+    margin-bottom: 24px;
+}
+#copyright{
+    background-color: black;
+    color: white;
+    padding: 32px;
+}
+
+#container{
+    margin: 24px auto;
+    border-bottom: 1px solid silver;
+}
+#container form{
+    display: flex;
+    justify-content: center;
+}
+#container form input:nth-child(1){
+    border: none;
+    border-bottom: 1px solid silver;
+    height: 30px;
+    font-size: 22px;
+    width: 30%;
+    outline: none;
+    padding: 10px;
+    color: grey;
+}
+
+#container form input[type='submit']{
+    border: none;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(176, 171, 171);
+}
+
+#productContainer{
+    display: grid;
+    gap: 14px;
+    margin: 24px auto;
+    width: 85%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#productContainer div{
+    padding: 12px;
+}
+#productContainer div img{
+    width: 100%;
+}
+#productContainer div .actual{
+    margin-right: 14px;
+    color: black;
+}
+#productContainer div .deleted{
+    color: grey;
+}
+
+#productContainer div h5{
+    color: rgb(233, 63, 63);
+}
+
+#productContainer div{
+    background-color: ghostwhite;
+}
