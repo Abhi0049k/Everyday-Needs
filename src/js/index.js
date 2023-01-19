@@ -96,21 +96,7 @@ dropCollection.addEventListener('mouseleave', function(){
     dropCollection.style.display = 'none';
 })
 
-// let gifting = document.querySelector('#nav > #pages a:nth-child(8)');
-// let dropgift = document.querySelector('#gifts');
 
-// gifting.addEventListener('mouseenter', function(){
-//     dropgift.style.display = 'flex';
-// })
-// gifting.addEventListener('mouseleave', function(){
-//     dropgift.style.display = 'none';
-// })
-// dropgift.addEventListener('mouseenter', function(){
-//     dropgift.style.display = 'flex';
-// })
-// dropgift.addEventListener('mouseleave', function(){
-//     dropgift.style.display = 'none';
-// })
 
 let shop_categoriesCard = [
     {
@@ -234,6 +220,17 @@ function fright(){
     document.querySelector('#newarrivalsection > .right > .card:nth-child(5) p').innerText = newarrivalCard[5].title;
 }
 
+
+let subscribers = JSON.parse(localStorage.getItem('subscriber'))||[];
+
+let mainbody = document.querySelector('body');
+let btn = document.querySelector('#exclusiveAccess button');
+btn.addEventListener('click', function(){
+    let email = document.querySelector('#exclusiveAccess input').value;
+    subscribers.push(email);
+    localStorage.setItem("subscriber", JSON.stringify(subscribers));
+})
+
 let url = 'product.json';
 let fetchdata = [];
 async function fetching(){
@@ -242,4 +239,4 @@ async function fetching(){
     console.log(res);
 }
 
-fetching()
+fetching();
