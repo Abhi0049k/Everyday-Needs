@@ -822,3 +822,19 @@ body{
     color: white;
     padding: 32px;
 }
+
+#floating{
+    position: absolute;
+    top: 8200px;
+    left: 590px;
+    font-size: 24px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+}

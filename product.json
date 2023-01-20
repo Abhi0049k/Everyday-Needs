@@ -5,7 +5,13 @@
             "price": 1699,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/all-beige-pedal-daypack-images/All-Beige-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/all-beige-pedal-daypack-images/All-Beige-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-beige-pedal-daypack-images/All-Beige-Pedal-Daypack-vw.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-beige-pedal-daypack-images/All-Beige-Pedal-Daypack-12t.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-beige-pedal-daypack-images/All-Beige-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-beige-pedal-daypack-images/All-Beige-Pedal-Daypack-14t.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 2499,
             "type": "pedal"
         },
@@ -14,7 +20,13 @@
             "price": 3499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/all-clove-9-to-9-backpack-images/All-Clove-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/all-clove-9-to-9-backpack-images/All-Clove-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-clove-9-to-9-backpack-images/All-Clove-9-to-9-Backpack-vw.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-clove-9-to-9-backpack-images/All-Clove-9-to-9-Backpack-1st.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-clove-9-to-9-backpack-images/All-Clove-9-to-9-Backpack-2nd.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-clove-9-to-9-backpack-images/All-Clove-9-to-9-Backpack-3rd.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 5999,
             "type": "08:01"
         },
@@ -23,7 +35,13 @@
             "price": 3499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/all-mustard-9-to-9-backpack-images/All-Mustard-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/all-mustard-9-to-9-backpack-images/All-Mustard-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-mustard-9-to-9-backpack-images/All-Mustard-9-to-9-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-mustard-9-to-9-backpack-images/All-Mustard-9-to-9-Backpack-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-mustard-9-to-9-backpack-images/All-Mustard-9-to-9-Backpack-2n.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-mustard-9-to-9-backpack-images/All-Mustard-9-to-9-Backpack-3r.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 5999,
             "type": "08:01"
         },
@@ -32,7 +50,13 @@
             "price": 1299,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/red-scoot-backpack-images/Red-Scoot-Backpack-5.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/red-scoot-backpack-images/Red-Scoot-Backpack-5.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/red-scoot-backpack-images/Red-Scoot-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/red-scoot-backpack-images/Red-Scoot-Backpack-6.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/red-scoot-backpack-images/Red-Scoot-Backpack-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/red-scoot-backpack-images/Red-Scoot-Backpack-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 1999,
             "type": "tarp"
         },
@@ -41,7 +65,13 @@
             "price": 3499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/natural-white---olive-9-to-9-backpack-images/Natural-White-Olive-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---olive-9-to-9-backpack-images/Natural-White-Olive-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---olive-9-to-9-backpack-images/Natural-White-Olive-9-to-9-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---olive-9-to-9-backpack-images/Natural-White-Olive-9-to-9-Backpack-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---olive-9-to-9-backpack-images/Natural-White-Olive-9-to-9-Backpack-2n.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---olive-9-to-9-backpack-images/Natural-White-Olive-9-to-9-Backpack-3r.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 5999,
             "type": "08:01"
         },
@@ -50,7 +80,13 @@
             "price": 3499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/all-navy-9-to-9-backpack-images/All-Navy-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/all-navy-9-to-9-backpack-images/All-Navy-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-navy-9-to-9-backpack-images/All-Navy-9-to-9-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-navy-9-to-9-backpack-images/All-Navy-9-to-9-Backpack-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-navy-9-to-9-backpack-images/All-Navy-9-to-9-Backpack-10.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-navy-9-to-9-backpack-images/All-Navy-9-to-9-Backpack-2n.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 5999,
             "type": "08:01"
         },
@@ -59,7 +95,13 @@
             "price": 3499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/natural-white---navy-9-to-9-backpack-images/Natural-White-Navy-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---navy-9-to-9-backpack-images/Natural-White-Navy-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---navy-9-to-9-backpack-images/Natural-White-Navy-9-to-9-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---navy-9-to-9-backpack-images/Natural-White-Navy-9-to-9-Backpack-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---navy-9-to-9-backpack-images/Natural-White-Navy-9-to-9-Backpack-2n.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---navy-9-to-9-backpack-images/Natural-White-Navy-9-to-9-Backpack-3r.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 5999,
             "type": "08:01"
         },
@@ -68,7 +110,13 @@
             "price": 1699,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-vw.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-14t.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-8t.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 2499
         },
         {
@@ -76,7 +124,13 @@
             "price": 3499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/natural-white---clove-9-to-9-backpack-images/Natural-White-Clove-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---clove-9-to-9-backpack-images/Natural-White-Clove-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---clove-9-to-9-backpack-images/Ivory-White-Clove-9-to-9-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---clove-9-to-9-backpack-images/Ivory-White-Clove-9-to-9-Backpack-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---clove-9-to-9-backpack-images/Natural-White-Clove-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---clove-9-to-9-backpack-images/Ivory-White-Clove-9-to-9-Backpack-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 5999,
             "type": "08:01"
         },
@@ -85,7 +139,13 @@
             "price": 1699,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/all-blue-pedal-daypack-images/All-Blue-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/all-blue-pedal-daypack-images/All-Blue-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-blue-pedal-daypack-images/All-Blue-Pedal-Daypack-vw.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-blue-pedal-daypack-images/All-Blue-Pedal-Daypack-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-blue-pedal-daypack-images/All-Blue-Pedal-Daypack-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/all-blue-pedal-daypack-images/All-Blue-Pedal-Daypack-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 2499,
             "type": "pedal"
         },
@@ -94,7 +154,13 @@
             "price": 3499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/natural-white---mustard-9-to-9-backpack-images/Natural-White-Mustard-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---mustard-9-to-9-backpack-images/Natural-White-Mustard-9-to-9-Backpack-9t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---mustard-9-to-9-backpack-images/Natural-White-Mustard-9-to-9-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---mustard-9-to-9-backpack-images/Natural-White-Mustard-9-to-9-Backpack-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---mustard-9-to-9-backpack-images/Natural-White-Mustard-9-to-9-Backpack-2n.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/natural-white---mustard-9-to-9-backpack-images/Natural-White-Mustard-9-to-9-Backpack-3r.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 5999,
             "type": "08:01"
         },
@@ -103,7 +169,13 @@
             "price": 1499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/yellow-scoot-backpack-images/Yellow-Scoot-Backpack-5.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/yellow-scoot-backpack-images/Yellow-Scoot-Backpack-5.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/yellow-scoot-backpack-images/Yellow-Scoot-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/yellow-scoot-backpack-images/Yellow-Scoot-Backpack-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/yellow-scoot-backpack-images/Yellow-Scoot-Backpack-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/yellow-scoot-backpack-images/Yellow-Scoot-Backpack-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 2499,
             "type": "tarp"
         },
@@ -112,7 +184,13 @@
             "price": 2499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-khaki-beige-pilot-backpack-images/DailyObjects-Khaki-Beige-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-khaki-beige-pilot-backpack-images/DailyObjects-Khaki-Beige-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-khaki-beige-pilot-backpack-images/DailyObjects-Khaki-Beige-City-Compact-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-khaki-beige-pilot-backpack-images/DailyObjects-Khaki-Beige-City-Compact-Backpack-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-khaki-beige-pilot-backpack-images/DailyObjects-Khaki-Beige-City-Compact-Backpack-4.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-khaki-beige-pilot-backpack-images/DailyObjects-Khaki-Beige-City-Compact-Backpack-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 4999,
             "type": "fleet"
         },
@@ -121,7 +199,13 @@
             "price": 2499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-crimson-red-pilot-backpack-images/DailyObjects-Crimson-Red-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-crimson-red-pilot-backpack-images/DailyObjects-Crimson-Red-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-crimson-red-pilot-backpack-images/DailyObjects-Crimson-Red-City-Compact-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-crimson-red-pilot-backpack-images/DailyObjects-Crimson-Red-City-Compact-Backpack-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-crimson-red-pilot-backpack-images/DailyObjects-Crimson-Red-City-Compact-Backpack-3.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-crimson-red-pilot-backpack-images/DailyObjects-Crimson-Red-City-Compact-Backpack-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 4999,
             "type": "fleet"
         },
@@ -130,7 +214,13 @@
             "price": 2499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-midnight-blue-pilot-backpack-images/DailyObjects-Midnight-Blue-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-midnight-blue-pilot-backpack-images/DailyObjects-Midnight-Blue-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-midnight-blue-pilot-backpack-images/DailyObjects-Midnight-Blue-City-Compact-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-midnight-blue-pilot-backpack-images/DailyObjects-Midnight-Blue-City-Compact-Backpack-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-midnight-blue-pilot-backpack-images/DailyObjects-Midnight-Blue-City-Compact-Backpack-4.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-midnight-blue-pilot-backpack-images/DailyObjects-Midnight-Blue-City-Compact-Backpack-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 4999,
             "type": "fleet"
         },
@@ -139,7 +229,13 @@
             "price": 2499,
             "category": "backpack",
             "offer": "FREE DUFFLE BAG/ WALLET",
-            "img": "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-mustard-yellow-pilot-backpack-images/DailyObjects-Mustard-Yellow-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-mustard-yellow-pilot-backpack-images/DailyObjects-Mustard-Yellow-City-Compact-Backpack-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-mustard-yellow-pilot-backpack-images/DailyObjects-Mustard-Yellow-City-Compact-Backpack.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-mustard-yellow-pilot-backpack-images/DailyObjects-Mustard-Yellow-City-Compact-Backpack-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-mustard-yellow-pilot-backpack-images/DailyObjects-Mustard-Yellow-City-Compact-Backpack-6.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1201/dailyobjects-mustard-yellow-pilot-backpack-images/DailyObjects-Mustard-Yellow-City-Compact-Backpack-7.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1"
+            ],
             "deleteValue": 4999,
             "type": "fleet"
         }
@@ -152,7 +248,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2499,
             "type": "braided",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/red-braided-solo-loop-universal-watchband-22mm-images/Red-Braided-Solo-Loop-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/red-braided-solo-loop-universal-watchband-22mm-images/Red-Braided-Solo-Loop-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/red-braided-solo-loop-universal-watchband-22mm-images/Red-Braided-Solo-Loop-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/red-braided-solo-loop-universal-watchband-22mm-images/Red-Braided-Solo-Loop-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/red-braided-solo-loop-universal-watchband-22mm-images/Red-Braided-Solo-Loop-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Blue Silicone Click Universal WatchBand (22mm)",
@@ -161,7 +262,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2499,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-click-universal-watchband-22mm-images/Blue-Silicone-Click-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-click-universal-watchband-22mm-images/Blue-Silicone-Click-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-click-universal-watchband-22mm-images/Blue-Silicone-Click-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-click-universal-watchband-22mm-images/Blue-Silicone-Click-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-click-universal-watchband-22mm-images/Blue-Silicone-Click-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Gold Milanese Loop Universal WatchBand (22mm)",
@@ -170,7 +276,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2499,
             "type": "milanese",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/gold-milanese-loop-universal-watchband-22mm-images/Gold-Milanese-Loop-Universal-WatchBand-20mm-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/gold-milanese-loop-universal-watchband-22mm-images/Gold-Milanese-Loop-Universal-WatchBand-20mm-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/gold-milanese-loop-universal-watchband-22mm-images/Gold-Milanese-Loop-Universal-WatchBand-20mm.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/gold-milanese-loop-universal-watchband-22mm-images/Gold-Milanese-Loop-Universal-WatchBand-20mm-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/gold-milanese-loop-universal-watchband-22mm-images/Gold-Milanese-Loop-Universal-WatchBand-20mm-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Black Croco Leather Universal WatchBand (22mm)",
@@ -179,7 +290,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2999,
             "type": "leather",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/black-croco-leather-universal-watchband-22mm-images/Black-Croco-Leather-Universal-WatchBand-20mm-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/black-croco-leather-universal-watchband-22mm-images/Black-Croco-Leather-Universal-WatchBand-20mm-2.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-croco-leather-universal-watchband-22mm-images/Black-Croco-Leather-Universal-WatchBand-20mm.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-croco-leather-universal-watchband-22mm-images/Black-Croco-Leather-Universal-WatchBand-20mm-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-croco-leather-universal-watchband-22mm-images/Black-Croco-Leather-Universal-WatchBand-20mm-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Black Silicone Sport Universal WatchBand (22mm)",
@@ -188,7 +304,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2699,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-sprot-universal-watchband-22mm-images/Black-Silicone-Sprot-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-sprot-universal-watchband-22mm-images/Black-Silicone-Sprot-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-sprot-universal-watchband-22mm-images/Black-Silicone-Sprot-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-sprot-universal-watchband-22mm-images/Black-Silicone-Sprot-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-sprot-universal-watchband-22mm-images/Black-Silicone-Sprot-Universal-WatchBand-3.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Atlantic Blue Braided Solo Loop Universal WatchBand (22mm)",
@@ -197,7 +318,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2499,
             "type": "braided",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/atlantic-blue-braided-solo-loop-universal-watchband-22mm-images/Atlantic-Blue-Braided-Solo-Loop-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/atlantic-blue-braided-solo-loop-universal-watchband-22mm-images/Atlantic-Blue-Braided-Solo-Loop-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/atlantic-blue-braided-solo-loop-universal-watchband-22mm-images/Atlantic-Blue-Braided-Solo-Loop-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/atlantic-blue-braided-solo-loop-universal-watchband-22mm-images/Atlantic-Blue-Braided-Solo-Loop-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/atlantic-blue-braided-solo-loop-universal-watchband-22mm-images/Atlantic-Blue-Braided-Solo-Loop-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Blue Silicone Buckle Universal WatchBand (22mm)",
@@ -206,7 +332,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2699,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-buckle-universal-watchband-22mm-images/Blue-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-buckle-universal-watchband-22mm-images/Blue-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-buckle-universal-watchband-22mm-images/Blue-Silicone-Buckle-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-buckle-universal-watchband-22mm-images/Blue-Silicone-Buckle-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/blue-silicone-buckle-universal-watchband-22mm-images/Blue-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Black Milanese Loop Universal WatchBand (22mm)",
@@ -215,7 +346,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2999,
             "type": "milanese",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/black-milanese-loop-universal-watchband-22mm-images/Black-Milanese-Loop-Universal-WatchBand-20mm-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/black-milanese-loop-universal-watchband-22mm-images/Black-Milanese-Loop-Universal-WatchBand-20mm-2.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-milanese-loop-universal-watchband-22mm-images/Black-Milanese-Loop-Universal-WatchBand-20mm.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-milanese-loop-universal-watchband-22mm-images/Black-Milanese-Loop-Universal-WatchBand-20mm-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-milanese-loop-universal-watchband-22mm-images/Black-Milanese-Loop-Universal-WatchBand-20mm-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Black Silicone Click Universal WatchBand (22mm)",
@@ -224,7 +360,11 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2499,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-click-universal-watchband-22mm-images/Black-Silicone-Click-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-click-universal-watchband-22mm-images/Black-Silicone-Click-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-click-universal-watchband-22mm-images/Black-Silicone-Click-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-silicone-click-universal-watchband-22mm-images/Black-Silicone-Click-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Sea Green Silicone Sport Universal WatchBand (22mm)",
@@ -233,7 +373,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2699,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-sprot-universal-watchband-22mm-images/Sea-Green-Silicone-Sprot-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-sprot-universal-watchband-22mm-images/Sea-Green-Silicone-Sprot-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-sprot-universal-watchband-22mm-images/Sea-Green-Silicone-Sprot-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-sprot-universal-watchband-22mm-images/Sea-Green-Silicone-Sprot-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-sprot-universal-watchband-22mm-images/Sea-Green-Silicone-Sprot-Universal-WatchBand-3.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Black Nylon Universal WatchBand (22mm)",
@@ -242,7 +387,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 1999,
             "type": "nylon",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/black-nylon-universal-watchband-22mm-images/Black-Nylon-Universal-WatchBand-20mm-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/black-nylon-universal-watchband-22mm-images/Black-Nylon-Universal-WatchBand-20mm-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-nylon-universal-watchband-22mm-images/Black-Nylon-Universal-WatchBand-20mm.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-nylon-universal-watchband-22mm-images/Black-Nylon-Universal-WatchBand-20mm-1.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/black-nylon-universal-watchband-22mm-images/Black-Nylon-Universal-WatchBand-20mm-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "White Silicone Click Universal WatchBand (22mm)",
@@ -251,7 +401,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2499,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/white-silicone-click-universal-watchband-22mm-images/White-Silicone-Click-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/white-silicone-click-universal-watchband-22mm-images/White-Silicone-Click-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/white-silicone-click-universal-watchband-22mm-images/White-Silicone-Click-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/white-silicone-click-universal-watchband-22mm-images/White-Silicone-Click-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/white-silicone-click-universal-watchband-22mm-images/White-Silicone-Click-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Brown Two-stitch Handmade Leather Universal WatchBand (22mm)",
@@ -260,7 +415,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2999,
             "type": "leather",
-            "img": "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Brown-Two-stitch-Handmade-Leather-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Brown-Two-stitch-Handmade-Leather-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Brown-Two-stitch-Handmade-Leather-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Brown-Two-stitch-Handmade-Leather-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Brown-Two-stitch-Handmade-Leather-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Burgundy Silicone Buckle Universal WatchBand (22mm)",
@@ -269,7 +429,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2699,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/burgundy-silicone-buckle-universal-watchband-22mm-images/Burgandy-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/burgundy-silicone-buckle-universal-watchband-22mm-images/Burgandy-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/burgundy-silicone-buckle-universal-watchband-22mm-images/Burgandy-Silicone-Buckle-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/burgundy-silicone-buckle-universal-watchband-22mm-images/Burgandy-Silicone-Buckle-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/burgundy-silicone-buckle-universal-watchband-22mm-images/Burgandy-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Sea Green Silicone Buckle Universal WatchBand (22mm)",
@@ -278,7 +443,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2699,
             "type": "silicone",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-buckle-universal-watchband-22mm-images/Green-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-buckle-universal-watchband-22mm-images/Green-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-buckle-universal-watchband-22mm-images/Green-Silicone-Buckle-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-buckle-universal-watchband-22mm-images/Green-Silicone-Buckle-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/sea-green-silicone-buckle-universal-watchband-22mm-images/Green-Silicone-Buckle-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Green Classic Leather Universal WatchBand (22mm)",
@@ -287,7 +457,12 @@
             "offer": "BUY ANY 3 @ 999",
             "deleteValue": 2999,
             "type": "milanese",
-            "img": "https://images.dailyobjects.com/marche/product-images/1801/green-classic-leather-universal-watchband-22mm-images/Green-Classic-Leather-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1801/green-classic-leather-universal-watchband-22mm-images/Green-Classic-Leather-Universal-WatchBand-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/green-classic-leather-universal-watchband-22mm-images/Green-Classic-Leather-Universal-WatchBand.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/green-classic-leather-universal-watchband-22mm-images/Green-Classic-Leather-Universal-WatchBand-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1801/green-classic-leather-universal-watchband-22mm-images/Green-Classic-Leather-Universal-WatchBand-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         }
     ],
     "MessengerBags":[
@@ -298,7 +473,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 5499,
             "type": "08:01",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/all-clove-commute-messenger-medium-images/All-Clove-Commute-Messenger-Small-2nd.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/all-clove-commute-messenger-medium-images/All-Clove-Commute-Messenger-Small-2nd.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/all-clove-commute-messenger-medium-images/All-Clove-Commute-Messenger-Small-Vw.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/all-clove-commute-messenger-medium-images/All-Clove-Commute-Messenger-Small-1st.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/all-clove-commute-messenger-medium-images/All-Clove-Commute-Messenger-Small-2nd.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/all-clove-commute-messenger-medium-images/All-Clove-Commute-Messenger-Small-4th.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Ivory - Clove Commute Messenger Large",
@@ -307,7 +488,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 6499,
             "type": "08:01",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/ivory-clove-commute-messenger-large-images/Ivory-Clove-Commute-Messenger-Large-2n.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-clove-commute-messenger-large-images/Ivory-Clove-Commute-Messenger-Large-2n.png?tr=cm-pad_resize,v-2,w-352,h-434,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-clove-commute-messenger-large-images/Ivory-Clove-Commute-Messenger-Large-vw.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-clove-commute-messenger-large-images/Ivory-Clove-Commute-Messenger-Large-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-clove-commute-messenger-large-images/Ivory-Clove-Commute-Messenger-Large-4t.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-clove-commute-messenger-large-images/Ivory-Clove-Commute-Messenger-Large-5t.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Ivory - Navy Commute Messenger Medium",
@@ -316,7 +503,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 5499,
             "type": "08:01",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/ivory-navy-commute-messenger-medium-images/Ivory-Navy-Commute-Messenger-Medium-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-navy-commute-messenger-medium-images/Ivory-Navy-Commute-Messenger-Medium-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-navy-commute-messenger-medium-images/Ivory-Navy-Commute-Messenger-Medium.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-navy-commute-messenger-medium-images/Ivory-Navy-Commute-Messenger-Medium-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-navy-commute-messenger-medium-images/Ivory-Navy-Commute-Messenger-Medium-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-navy-commute-messenger-medium-images/Ivory-Navy-Commute-Messenger-Medium-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Ivory - Olive Commute Messenger Medium",
@@ -325,7 +518,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 5499,
             "type": "08:01",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/ivory-olive-commute-messenger-medium-images/Ivory-Olive-Commute-Messenger-Small-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-olive-commute-messenger-medium-images/Ivory-Olive-Commute-Messenger-Small-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-olive-commute-messenger-medium-images/Ivory-Olive-Commute-Messenger-Small-vw.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-olive-commute-messenger-medium-images/Ivory-Olive-Commute-Messenger-Small-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-olive-commute-messenger-medium-images/Ivory-Olive-Commute-Messenger-Small-3r.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/ivory-olive-commute-messenger-medium-images/Ivory-Olive-Commute-Messenger-Small-4t.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Terracotta Red Bask Messenger Bag",
@@ -334,7 +533,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "bask",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Bask-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Bask-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Coach-Messenger-Bag-3rd.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Space Blue Bask Messenger Bag",
@@ -343,7 +548,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "bask",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/space-blue-bask-messenger-bag-images/Space-Blue-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/space-blue-bask-messenger-bag-images/Space-Blue-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-blue-bask-messenger-bag-images/Space-Blue-Bask-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-blue-bask-messenger-bag-images/Space-Blue-Bask-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-blue-bask-messenger-bag-images/Space-Blue-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-blue-bask-messenger-bag-images/Space-Blue-Coach-Messenger-Bag-3rd.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Walnut Brown Bask Messenger Bag",
@@ -352,7 +563,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "bask",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-bask-messenger-bag-images/Walnut-Brown-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-bask-messenger-bag-images/Walnut-Brown-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-bask-messenger-bag-images/Walnut-Brown-Bask-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-bask-messenger-bag-images/Walnut-Brown-Bask-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-bask-messenger-bag-images/Walnut-Brown-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-bask-messenger-bag-images/Walnut-Brown-Coach-Messenger-Bag-3rd.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Walnut Brown Classic Briefcase Bag",
@@ -361,7 +578,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 5999,
             "type": "breifcase",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/terracotta-red-bask-messenger-bag-images/Terracotta-Red-Coach-Messenger-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-urban-classic-briefcase-bag-images/Walnut-Brown-Urban-Classic-Briefcase-Bag-vw.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-urban-classic-briefcase-bag-images/Walnut-Brown-Urban-Classic-Briefcase-Bag-1s.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-urban-classic-briefcase-bag-images/Walnut-Brown-Urban-Classic-Briefcase-Bag-2n.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/walnut-brown-urban-classic-briefcase-bag-images/Walnut-Brown-Urban-Classic-Briefcase-Bag-3r.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Space Blue Urban Classic Briefcase Bag",
@@ -370,7 +593,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 5999,
             "type": "breifcase",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/space-urban-classic-briefcase-bag-images/Space-Blue-Urban-Classic-Briefcase-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/space-urban-classic-briefcase-bag-images/Space-Blue-Urban-Classic-Briefcase-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-urban-classic-briefcase-bag-images/Space-Blue-Urban-Classic-Briefcase-Bag-vw.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-urban-classic-briefcase-bag-images/Space-Blue-Urban-Classic-Briefcase-Bag-1s.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-urban-classic-briefcase-bag-images/Space-Blue-Urban-Classic-Briefcase-Bag-4t.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/space-urban-classic-briefcase-bag-images/Space-Blue-Urban-Classic-Briefcase-Bag-5t.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Black Urban Classic Briefcase Bag",
@@ -379,7 +608,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 5999,
             "type": "breifcase",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/black-urban-classic-briefcase-bag-images/Black-Urban-Classic-Briefcase-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/black-urban-classic-briefcase-bag-images/Black-Urban-Classic-Briefcase-Bag-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/black-urban-classic-briefcase-bag-images/Black-Urban-Classic-Briefcase-Bag-vw.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/black-urban-classic-briefcase-bag-images/Black-Urban-Classic-Briefcase-Bag-1s.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/black-urban-classic-briefcase-bag-images/Black-Urban-Classic-Briefcase-Bag-4t.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/black-urban-classic-briefcase-bag-images/Black-Urban-Classic-Briefcase-Bag-5t.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Midnight Blue City Compact Fleet Messenger Bag",
@@ -388,7 +623,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "fleet",
-            "img": "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Midnight-Blue-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Midnight-Blue-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Midnight-Blue-City-Compact-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Midnight-Blue-City-Compact-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Midnight-Blue-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Midnight-Blue-City-Compact-Messenger-Bag-8.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Khaki Beige City Compact Fleet Messenger Bag",
@@ -397,7 +638,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "fleet",
-            "img": "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Khaki-Beige-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Khaki-Beige-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Khaki-Beige-City-Compact-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Khaki-Beige-City-Compact-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Khaki-Beige-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Khaki-Beige-City-Compact-Messenger-Bag-8.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Mustard Yellow City Compact Fleet Messenger Bag",
@@ -406,7 +653,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "fleet",
-            "img": "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-City-Compact-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-City-Compact-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-City-Compact-Messenger-Bag-8.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Crimson Red City Compact Fleet Messenger Bag",
@@ -415,7 +668,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "fleet",
-            "img": "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Crimson-Red-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Crimson-Red-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Crimson-Red-City-Compact-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Crimson-Red-City-Compact-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Crimson-Red-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Crimson-Red-City-Compact-Messenger-Bag-8.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Olive Green City Compact Fleet Messenger Bag",
@@ -424,7 +683,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "fleet",
-            "img": "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Olive-Green-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Olive-Green-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Olive-Green-City-Compact-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Olive-Green-City-Compact-Messenger-Bag-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Olive-Green-City-Compact-Messenger-Bag-7.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Olive-Green-City-Compact-Messenger-Bag-8.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Clove City Compact Fleet Messenger Bag",
@@ -433,7 +698,13 @@
             "offer": "FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "fleet",
-            "img": "https://images.dailyobjects.com/marche/product-images/1202/clove-city-compact-messenger-bag-images/Clove-City-Compact-Fleet-Messenger-Bag-2.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1202/clove-city-compact-messenger-bag-images/Clove-City-Compact-Fleet-Messenger-Bag-2.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/clove-city-compact-messenger-bag-images/Clove-City-Compact-Fleet-Messenger-Bag.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/clove-city-compact-messenger-bag-images/Clove-City-Compact-Fleet-Messenger-Bag-1s.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/clove-city-compact-messenger-bag-images/Clove-City-Compact-Fleet-Messenger-Bag-2.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1202/clove-city-compact-messenger-bag-images/Clove-City-Compact-Fleet-Messenger-Bag-3.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         }
     ],
     "Organisers": [
@@ -444,7 +715,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "planner",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/hunter-green-array-planner-and-organiser-images/Hunter-Green-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/hunter-green-array-planner-and-organiser-images/Hunter-Green-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hunter-green-array-planner-and-organiser-images/Hunter-Green-SOT-Weekly-Planner.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hunter-green-array-planner-and-organiser-images/Hunter-Green-Array-Organiser-with-Planner-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hunter-green-array-planner-and-organiser-images/Hunter-Green-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hunter-green-array-planner-and-organiser-images/Hunter-Green-Array-Organiser-with-Planner-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Space Blue Array Organiser with Planner",
@@ -453,7 +730,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "planner",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/space-blue-array-planner-and-organiser-images/Space-Blue-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/space-blue-array-planner-and-organiser-images/Space-Blue-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/space-blue-array-planner-and-organiser-images/Space-Blue-SOT-Weekly-Planner.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/space-blue-array-planner-and-organiser-images/Space-Blue-Array-Organiser-with-Planner-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/space-blue-array-planner-and-organiser-images/Space-Blue-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/space-blue-array-planner-and-organiser-images/Space-Blue-Array-Organiser-with-Planner-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Walnut Brown Array Organiser with Planner",
@@ -462,7 +745,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "planner",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/walnut-brown-array-planner-and-organiser-images/Walnut-Brown-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/walnut-brown-array-planner-and-organiser-images/Walnut-Brown-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/walnut-brown-array-planner-and-organiser-images/Walnut-Brown-SOT-Weekly-Planner.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/walnut-brown-array-planner-and-organiser-images/Walnut-Brown-Array-Organiser-with-Planner-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/walnut-brown-array-planner-and-organiser-images/Walnut-Brown-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/walnut-brown-array-planner-and-organiser-images/Walnut-Brown-Array-Organiser-with-Planner-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Terracotta Red Array Organiser with Planner",
@@ -471,7 +760,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "planner",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-array-planner-and-organiser-images/Terracotta-Red-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-array-planner-and-organiser-images/Terracotta-Red-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-array-planner-and-organiser-images/Terracotta-Red-SOT-Weekly-Planner.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-array-planner-and-organiser-images/Terracotta-Red-Array-Organiser-with-Planner-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-array-planner-and-organiser-images/Terracotta-Red-SOT-Weekly-Planner-10.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-array-planner-and-organiser-images/Terracotta-Red-Array-Organiser-with-Planner-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Marshal Tech Kit Organiser - Tan",
@@ -480,7 +775,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "tech",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-kit-organiser-tan-images/Marshal-Tech-Kit-Organiser-Tan-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-kit-organiser-tan-images/Marshal-Tech-Kit-Organiser-Tan-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-kit-organiser-tan-images/Marshal-Tech-Kit-Organiser-Tan.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-kit-organiser-tan-images/Marshal-Tech-Kit-Organiser-Tan-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-kit-organiser-tan-images/Marshal-Tech-Kit-Organiser-Tan-3.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-kit-organiser-tan-images/Marshal-Tech-Kit-Organiser-Tan-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Marshal Tech Kit Organiser - Black",
@@ -489,7 +790,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "tech",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-black-images/marshal-tech-kit-organiser-black-1.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-black-images/marshal-tech-kit-organiser-black-1.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-black-images/marshal-tech-kit-organiser-black.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-black-images/marshal-tech-kit-organiser-black-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-black-images/marshal-tech-kit-organiser-black-4.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-black-images/marshal-tech-kit-organiser-black-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Marshal Tech Kit Organiser - Blue",
@@ -498,7 +805,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "tech",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-blue-images/marshal-tech-kit-organiser-blue-1.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-blue-images/marshal-tech-kit-organiser-blue-1.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-blue-images/marshal-tech-kit-organiser-blue.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-blue-images/marshal-tech-kit-organiser-blue-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-blue-images/marshal-tech-kit-organiser-blue-4.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-tech-case-blue-images/marshal-tech-kit-organiser-blue-5.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Marshal Mini Tech Kit Organiser - Tan",
@@ -507,7 +820,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "tech",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/marshal-mini-tech-kit-organiser-tan-images/Marshal-Mini-Tech-Kit-Organiser-Tan-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-mini-tech-kit-organiser-tan-images/Marshal-Mini-Tech-Kit-Organiser-Tan-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-mini-tech-kit-organiser-tan-images/Marshal-Mini-Tech-Kit-Organiser-Tan.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-mini-tech-kit-organiser-tan-images/Marshal-Mini-Tech-Kit-Organiser-Tan-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-mini-tech-kit-organiser-tan-images/Marshal-Mini-Tech-Kit-Organiser-Tan-3.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/marshal-mini-tech-kit-organiser-tan-images/Marshal-Mini-Tech-Kit-Organiser-Tan-4.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Urbane Tech Folio - Tan",
@@ -516,7 +835,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 3999,
             "type": "folio",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-tan-images/Tan-Urbane-Tech-Folio-1s.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-tan-images/Tan-Urbane-Tech-Folio-1s.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-tan-images/Tan-Urbane-Tech-Folio-VW.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-tan-images/Tan-Urbane-Tech-Folio-7.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-tan-images/Tan-Urbane-Tech-Folio-1s.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-tan-images/Tan-Urbane-Tech-Folio-2n.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Urbane Tech Folio - Black",
@@ -525,7 +850,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 3999,
             "type": "folio",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-black-images/Black-Urbane-Tech-Folio-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-black-images/Black-Urbane-Tech-Folio-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-black-images/Black-Urbane-Tech-Folio-VW.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-black-images/Black-Urbane-Tech-Folio-7t.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-black-images/Black-Urbane-Tech-Folio-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/urbane-tech-folio-black-images/Black-Urbane-Tech-Folio-3.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Clip-on Cable Sticker Black - Set of 5",
@@ -534,7 +865,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 999,
             "type": "cable",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-black-set-of-5-images/Clip-on-Cable-Sticker-Black-Set-of-5-2.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-black-set-of-5-images/Clip-on-Cable-Sticker-Black-Set-of-5-2.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-black-set-of-5-images/Clip-on-Cable-Sticker-Black-Set-of-5.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-black-set-of-5-images/Clip-on-Cable-Sticker-Black-Set-of-5-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-black-set-of-5-images/Clip-on-Cable-Sticker-Black-Set-of-5-3.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-black-set-of-5-images/Clip-on-Cable-Sticker-Black-Set-of-5-4.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Clip-on Cable Sticker White - Set of 5",
@@ -543,7 +880,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 999,
             "type": "cable",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-white-set-of-5-images/Clip-on-Cable-Sticker-White-Set-of-5-2.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-white-set-of-5-images/Clip-on-Cable-Sticker-White-Set-of-5-2.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-white-set-of-5-images/Clip-on-Cable-Sticker-White-Set-of-5.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-white-set-of-5-images/Clip-on-Cable-Sticker-White-Set-of-5-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-white-set-of-5-images/Clip-on-Cable-Sticker-White-Set-of-5-3.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/clip-on-cable-sticker-white-set-of-5-images/Clip-on-Cable-Sticker-White-Set-of-5-4.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Black Cinch Cable Bind - Set of 2",
@@ -552,7 +895,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 799,
             "type": "cable",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/black-cinch-cable-bind-set-of-2-images/Black-Cinch-Cable-Bind-Set-of-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/black-cinch-cable-bind-set-of-2-images/Black-Cinch-Cable-Bind-Set-of-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/black-cinch-cable-bind-set-of-2-images/Black-Cinch-Cable-Bind-Set-of-2.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/black-cinch-cable-bind-set-of-2-images/Black-Cinch-Cable-Bind-Set-of-2-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/black-cinch-cable-bind-set-of-2-images/Black-Cinch-Cable-Bind-Set-of-2-2.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/black-cinch-cable-bind-set-of-2-images/Black-Cinch-Cable-Bind-Set-of-2-3.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Terracotta Red Pellet Cable/Coin Wallet",
@@ -561,7 +910,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 999,
             "type": "cable",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-pellet-cable-coin-wallet-images/Terracotta-Red-Pellet-Cable-Coin-Wallet-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-pellet-cable-coin-wallet-images/Terracotta-Red-Pellet-Cable-Coin-Wallet-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-pellet-cable-coin-wallet-images/Terracotta-Red-Pellet-Cable-Coin-Wallet-4.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-pellet-cable-coin-wallet-images/Terracotta-Red-Pellet-Cable-Coin-Wallet-3.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-pellet-cable-coin-wallet-images/Terracotta-Red-Pellet-Cable-Coin-Wallet-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/terracotta-red-pellet-cable-coin-wallet-images/Terracotta-Red-Pellet-Cable-Coin-Wallet.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Hive Desk Caddy",
@@ -570,7 +925,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "pouches",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/hive-desk-caddy-images/Hive-Desk-Caddy-5t.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/hive-desk-caddy-images/Hive-Desk-Caddy-5t.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hive-desk-caddy-images/Hive-Desk-Caddy-vw.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hive-desk-caddy-images/Hive-Desk-Caddy-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hive-desk-caddy-images/Hive-Desk-Caddy-6t.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/hive-desk-caddy-images/Hive-Desk-Caddy-3.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Kangaroo Bed Pocket",
@@ -579,7 +940,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2999,
             "type": "pouches",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/kangaroo-bed-pocket-images/Kangaroo-Bed-Pocket-vw.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/kangaroo-bed-pocket-images/Kangaroo-Bed-Pocket-vw.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/kangaroo-bed-pocket-images/Kangaroo-Bed-Pocket-vw.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/kangaroo-bed-pocket-images/Kangaroo-Bed-Pocket-1s.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/kangaroo-bed-pocket-images/Kangaroo-Bed-Pocket-5t.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/kangaroo-bed-pocket-images/Kangaroo-Bed-Pocket-2n.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Owlbert Storage Basket",
@@ -588,7 +955,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 4999,
             "type": "pouches",
-            "img": "https://images.dailyobjects.com/marche/product-images/1703/owlbert-storage-basket-images/Owlbert-Storage-Basket-7t.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/1703/owlbert-storage-basket-images/Owlbert-Storage-Basket-7t.jpg?tr=cm-pad_crop,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/owlbert-storage-basket-images/Owlbert-Storage-Basket.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/owlbert-storage-basket-images/Owlbert-Storage-Basket-1.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/owlbert-storage-basket-images/Owlbert-Storage-Basket-7t.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1703/owlbert-storage-basket-images/Owlbert-Storage-Basket-8t.jpg?tr=cm-pad_crop,v-2,w-384,h-644,dpr-1"
+            ]
         },
         {
             "title": "Mustard Yellow Voyager",
@@ -597,7 +970,13 @@
             "offer":"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2999,
             "type": "pouches",
-            "img": "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-Voyager-Dopp-Kit-2nd.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img": [
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-Voyager-Dopp-Kit-2nd.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-Voyager-Dopp-Kit-vw.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-Voyager-Dopp-Kit-1st.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-Voyager-Dopp-Kit-2nd.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/undefined/undefined-images/Mustard-Yellow-Voyager-Dopp-Kit-3rd.png?tr=cm-pad_resize,v-2,w-384,h-644,dpr-1"
+            ]
         }
     ],
     "Cases":[
@@ -608,7 +987,16 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 2499,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-2n.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-1s.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-2n.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-3r.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-4t.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-5t.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-6t.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-14-pro-max-images/Nimbus-Phone-Case-Cover-For-iPhone-14-Pro-Max-7t.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "MagSafe Flekt Silicone Case Cover For iPhone 14 Pro Max",
@@ -617,7 +1005,18 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 2499,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-6.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-7.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-8.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-magsafe-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-MagSafe-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-9.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Lavender Flekt Silicone Case Cover For iPhone 14 Pro Max",
@@ -626,7 +1025,18 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 2499,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-6.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-7.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-8.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-lavender-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Lavender-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-9.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Vulcan Case Cover For iPhone 14 Pro Max",
@@ -635,7 +1045,13 @@
             "offer" :"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2499,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-vulcan-case-cover-for-iphone-14-pro-max-images/DailyObjects-Prima-Case-Cover-For-iPhone-14-Pro-Max-2nd.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-vulcan-case-cover-for-iphone-14-pro-max-images/DailyObjects-Prima-Case-Cover-For-iPhone-14-Pro-Max-2nd.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-vulcan-case-cover-for-iphone-14-pro-max-images/DailyObjects-Prima-Case-Cover-For-iPhone-14-Pro-Max-1st.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-vulcan-case-cover-for-iphone-14-pro-max-images/DailyObjects-Prima-Case-Cover-For-iPhone-14-Pro-Max-2nd.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-vulcan-case-cover-for-iphone-14-pro-max-images/DailyObjects-Prima-Case-Cover-For-iPhone-14-Pro-Max-3rd.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-vulcan-case-cover-for-iphone-14-pro-max-images/DailyObjects-Prima-Case-Cover-For-iPhone-14-Pro-Max-4th.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Blue Flekt Silicone Case Cover For iPhone 14 Pro Max",
@@ -644,7 +1060,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1999,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-blue-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Blue-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-blue-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Blue-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-blue-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Blue-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-blue-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Blue-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-blue-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Blue-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-blue-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Blue-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Black Flekt Silicone Case Cover For iPhone 14 Pro Max",
@@ -653,7 +1075,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1999,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-black-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Black-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-black-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Black-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-black-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Black-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-black-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Black-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-black-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Black-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-black-flekt-silicone-case-cover-for-iphone-14-pro-max-images/DailyObjects-Black-Flekt-Silicone-Case-Cover-For-iPhone-14-Pro-Max-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Another One Stride 2.0 Case Cover For iPhone 14 Pro Max",
@@ -662,7 +1090,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 2199,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-another-one-stride-2-0-case-cover-for-iphone-14-pro-max-images/DailyObjects-Another-One-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-another-one-stride-2-0-case-cover-for-iphone-14-pro-max-images/DailyObjects-Another-One-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-another-one-stride-2-0-case-cover-for-iphone-14-pro-max-images/Another-One-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-another-one-stride-2-0-case-cover-for-iphone-14-pro-max-images/DailyObjects-Another-One-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-another-one-stride-2-0-case-cover-for-iphone-14-pro-max-images/Feature-banner-stride-2O-iPhone-14-Pro-Max.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-another-one-stride-2-0-case-cover-for-iphone-14-pro-max-images/Another-One-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Bandar Mela Stride 2.0 Case Cover For iPhone 14 Pro Max",
@@ -671,7 +1105,13 @@
             "offer" :"FREE DUFFLE BAG/ WALLET",
             "deleteValue": 2199,
             "type": "iphone",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-stride-2-0-case-cover-for-iphone-14-pro-max-images/DailyObjects-Bandar-Mela-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-stride-2-0-case-cover-for-iphone-14-pro-max-images/DailyObjects-Bandar-Mela-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-stride-2-0-case-cover-for-iphone-14-pro-max-images/Bandar-Mela-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-stride-2-0-case-cover-for-iphone-14-pro-max-images/DailyObjects-Bandar-Mela-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-stride-2-0-case-cover-for-iphone-14-pro-max-images/Feature-banner-stride-2O-iPhone-14-Pro-Max.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-stride-2-0-case-cover-for-iphone-14-pro-max-images/Bandar-Mela-Stride-2-0-Case-Cover-For-iPhone-14-Pro-Max-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Bubble Blaster Glass Case Cover For Samsung Galaxy A73",
@@ -680,7 +1120,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bubble-blaster-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bubble-Blaster-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bubble-blaster-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bubble-Blaster-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bubble-blaster-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bubble-Blaster-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bubble-blaster-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bubble-Blaster-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bubble-blaster-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bubble-Blaster-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bubble-blaster-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bubble-Blaster-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "K3 Full Throttle Glass Case Cover For Samsung Galaxy A73",
@@ -689,7 +1135,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-full-throttle-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Full-Throttle-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-full-throttle-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Full-Throttle-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandar-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandar-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandar-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-glass-case-cover-for-samsung-galaxy-a73-images/Feature-Image-Glass-Case-Cover-For-Samsung-Galaxy-A73-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Bandar Mela Glass Case Cover For Samsung Galaxy A73",
@@ -698,7 +1150,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandar-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandar-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandar-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-full-throttle-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Full-Throttle-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-full-throttle-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Full-Throttle-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-full-throttle-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Full-Throttle-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-full-throttle-glass-case-cover-for-samsung-galaxy-a73-images/Feature-Image-Glass-Case-Cover-For-Samsung-Galaxy-A73-6.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "The Axe of Doobius Glass Case Cover For Samsung Galaxy A73",
@@ -707,7 +1165,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-the-axe-of-doobius-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-The-Axe-of-Doobius-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-the-axe-of-doobius-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-The-Axe-of-Doobius-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-the-axe-of-doobius-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-The-Axe-of-Doobius-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-the-axe-of-doobius-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-The-Axe-of-Doobius-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-the-axe-of-doobius-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-The-Axe-of-Doobius-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-the-axe-of-doobius-glass-case-cover-for-samsung-galaxy-a73-images/Feature-Image-Glass-Case-Cover-For-Samsung-Galaxy-A73-6.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Battle Jeep Glass Case Cover For Samsung Galaxy A73",
@@ -716,7 +1180,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-battle-jeep-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Battle-Jeep-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-battle-jeep-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Battle-Jeep-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-battle-jeep-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Battle-Jeep-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-battle-jeep-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Battle-Jeep-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-battle-jeep-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Battle-Jeep-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-battle-jeep-glass-case-cover-for-samsung-galaxy-a73-images/Feature-Image-Glass-Case-Cover-For-Samsung-Galaxy-A73-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Bandook Mela Glass Case Cover For Samsung Galaxy A73",
@@ -725,7 +1195,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandook-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandook-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandook-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandook-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandook-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandook-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandook-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandook-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandook-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Bandook-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-bandook-mela-glass-case-cover-for-samsung-galaxy-a73-images/Feature-Image-Glass-Case-Cover-For-Samsung-Galaxy-A73-4.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "K3 Hollow Victory Glass Case Cover For Samsung Galaxy A73",
@@ -734,7 +1210,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-hollow-victory-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Hollow-Victory-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-hollow-victory-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Hollow-Victory-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-hollow-victory-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Hollow-Victory-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-hollow-victory-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Hollow-Victory-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-hollow-victory-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-K3-Hollow-Victory-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-k3-hollow-victory-glass-case-cover-for-samsung-galaxy-a73-images/Feature-Image-Glass-Case-Cover-For-Samsung-Galaxy-A73-5.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         },
         {
             "title": "Ghoda Mela Glass Case Cover For Samsung Galaxy A73",
@@ -743,7 +1225,13 @@
             "offer" :"BUY 1 GET 1 FREE",
             "deleteValue": 1299,
             "type": "samsung",
-            "img" : "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-ghoda-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Ghoda-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1"
+            "img" : [
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-ghoda-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Ghoda-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-2.png?tr=cm-pad_resize,v-2,w-170,h-210,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-ghoda-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Ghoda-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-ghoda-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Ghoda-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-ghoda-mela-glass-case-cover-for-samsung-galaxy-a73-images/DailyObjects-Ghoda-Mela-Glass-Case-Cover-For-Samsung-Galaxy-A73-3.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
+                "https://images.dailyobjects.com/marche/product-images/1101/dailyobjects-ghoda-mela-glass-case-cover-for-samsung-galaxy-a73-images/Feature-Image-Glass-Case-Cover-For-Samsung-Galaxy-A73-6.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1"
+            ]
         }
     ]
 }

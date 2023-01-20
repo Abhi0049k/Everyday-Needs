@@ -100,12 +100,22 @@ let subscribers = JSON.parse(localStorage.getItem('subscriber')) || [];
 
 let mainbody = document.querySelector('body');
 let btn = document.querySelector('#exclusiveAccess button');
-btn.addEventListener('click', function () {
+btn.addEventListener('click', function(){
     let email = document.querySelector('#exclusiveAccess input').value;
     subscribers.push(email);
     localStorage.setItem("subscriber", JSON.stringify(subscribers));
+    popup();
 })
 
+function popup(){
+    let lert = document.createElement('div');
+    lert.innerText = 'Subscription Successful';
+    lert.setAttribute('id', 'floating');
+    mainbody.append(lert);
+    setTimeout(()=>{
+        lert.style.display = "none"
+    }, '2000');
+}
 let url = 'product.json';
 let fetchdata = {};
 async function fetching() {
@@ -125,7 +135,7 @@ function display(data) {
             let row = document.createElement('div');
             let linking = document.createElement('a');
             let img = document.createElement('img');
-            img.src = el.img;
+            img.src = el.img[0];
             linking.append(img);
             linking.setAttribute('href', `./${key}/product${index + 1}.html`);
             let title = document.createElement('p');
@@ -155,9 +165,21 @@ inp.addEventListener('submit', function (event) {
     if (vl == '') {
         display(fetchdata);
     } else {
-        let list = fetchdata.filter((el) => {
+        let list1 = fetchdata.Backpacks.filter((el) => {
             return el.title.toUpperCase().includes(vl.toUpperCase());
         })
-        display(list);
+        let list2 = fetchdata.Watchbands.filter((el)=>{
+            return el.title.toUpperCase().includes(vl.toUpperCase());
+        })
+        let list3 = fetchdata.MessengerBags.filter((el)=>{
+            return el.title.toUpperCase().includes(vl.toUpperCase());
+        })
+        let list4 = fetchdata.Organisers.filter((el)=>{
+            return el.title.toUpperCase().includes(vl.toUpperCase());
+        })
+        let list5 = fetchdata.Cases.filter((el)=>{
+            return el.title.toUpperCase().includes(vl.toUpperCase());
+        })
+        display({...{Backpacks: list1}, ...{Watchbands: list2}, ...{MessengerBags: list3}, ...{Organisers: list4}, ...{Cases: list5}});
     }
 })

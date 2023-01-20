@@ -104,7 +104,18 @@ btn.addEventListener('click', function(){
     let email = document.querySelector('#exclusiveAccess input').value;
     subscribers.push(email);
     localStorage.setItem("subscriber", JSON.stringify(subscribers));
+    popup();
 })
+
+function popup(){
+    let lert = document.createElement('div');
+    lert.innerText = 'Subscription Successful';
+    lert.setAttribute('id', 'floating');
+    mainbody.append(lert);
+    setTimeout(()=>{
+        lert.style.display = "none"
+    }, '2000');
+}
 
 let url = 'product.json';
 let fetchdata = [];
@@ -126,7 +137,7 @@ function display(data){
         let linking = document.createElement('a');
         
         let img = document.createElement('img');
-        img.src = el.img;
+        img.src = el.img[0];
         linking.append(img);
         linking.setAttribute('href', `./Watchbands/product${index+1}.html`);
         let title = document.createElement('p');
