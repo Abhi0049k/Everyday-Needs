@@ -229,14 +229,25 @@ btn.addEventListener('click', function(){
     let email = document.querySelector('#exclusiveAccess input').value;
     subscribers.push(email);
     localStorage.setItem("subscriber", JSON.stringify(subscribers));
+    popup();
 })
 
-let url = 'product.json';
-let fetchdata = [];
-async function fetching(){
-    let res = await fetch(url);
-    res = await res.json();
-    console.log(res);
+function popup(){
+    let lert = document.createElement('div');
+    lert.innerText = 'Subscription Successful';
+    lert.setAttribute('id', 'floating');
+    mainbody.append(lert);
+    setTimeout(()=>{
+        lert.style.display = "none"
+    }, '2000');
 }
 
-fetching();
+// let url = 'product.json';
+// let fetchdata = [];
+// async function fetching(){
+//     let res = await fetch(url);
+//     res = await res.json();
+//     console.log(res);
+// }
+
+// fetching();

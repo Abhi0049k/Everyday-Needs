@@ -471,6 +471,8 @@ body{
 }
 #productContainer div img{
     width: 100%;
+    height: 82%;
+    object-fit: cover;
 }
 #productContainer div .actual{
     margin-right: 14px;
