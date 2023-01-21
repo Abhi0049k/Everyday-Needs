@@ -82,15 +82,21 @@ body{
 /* For Every Product  */
 #productSide > div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 8px;
+    margin: 12px auto;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 18px;
 }
 
 #productSide > div > img{
     width: 120px;
     object-fit: cover;
 }
+#productSide > div >.right{
+    width: 430px;
+}
+
 
 #productSide > div .right > p{
     font-size: 26px;
@@ -114,6 +120,16 @@ body{
     height: 30px;
     width: 30px;
 }
+
+#productSide > div > .right > div > div{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#productSide > div > .right > div > div > button{
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
 #productSide > div > .right > div > div > span{
     margin: 12px;
     font-size: 20px;
@@ -129,7 +145,7 @@ body{
 
 #purchaseContainer #billSide{
     width: 50%;
-    padding: 80px 120px 0px 120px;
+    padding: 56px 120px 0px 120px;
     box-sizing: border-box;
 }
 
@@ -140,6 +156,7 @@ body{
 
 #purchaseContainer #billSide .info h3{
     text-align: start;
+    color: rgb(22, 165, 125);
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     height: 50px;
     display: flex;
@@ -156,6 +173,16 @@ body{
 
 #purchaseContainer #billSide .summary{
     margin: 20px auto;
+}
+
+#purchaseContainer #billSide .summary button{
+    margin: 8px auto;
+    width: 100%;
+    height: 46px;
+    background-color: #20a87e;
+    border: none;
+    border-radius: 2px;
+    color: white;
 }
 
 #purchaseContainer #billSide .summary .pricing{
