@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="x-icon" href=".../icon/Everyday needs-logo.jpeg">
+    <link rel="shortcut icon" type="x-icon" href="../icon/Everyday needs-logo.jpeg">
     <link rel="stylesheet" href="../src/style/common.css">
     <link rel="stylesheet" href="../src/style/products.css">
     <!-- <link rel="stylesheet" href="./src/style/watchband.css"> -->
@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="nav">
-        <a href="#">
+        <a href="../index.html">
             <img src="../icon/Everyday needs-logos_black.png" alt="Store for Mobile Covers and Accessories">
         </a>
         <div id="pages">
@@ -311,15 +311,15 @@
             <button class="leftbtn">
                 <i class="fa-sharp fa-solid fa-angle-left"></i>
             </button>
-            <img src="https://images.dailyobjects.com/marche/product-images/1201/all-beige-pedal-daypack-images/All-Beige-Pedal-Daypack-13t.jpg?tr=cm-pad_crop,v-2,w-352,h-434,dpr-1" alt="">
+            <img src="" alt="">
             <button class="rightbtn">
                 <i class="fa-sharp fa-solid fa-angle-right"></i>
             </button>
         </div>
         <div class="right">
-            <p>All Beige Pedal Daypack</p>
+            <p id="title"></p>
             <div class="pricingSection">
-                <h1>Rs. 1699 <del>2499</del></h1>
+                <h1><span id="price"></span><del id="deleted"></del></h1>
             <p>Inclusive of all taxes</p>
             </div>
             <p>Extra 10% cashback upto INR 500 with <img src="https://images.dailyobjects.com/marche/icons/zest-updated.png?tr=cm-pad_resize,v-2,h-18,dpr-1"></p>
@@ -341,18 +341,20 @@
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
                 <div class="second">
-                    <span>Product Details</span> 
+                    <span>Specifications</span> 
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
                 <div class="third">
-                    <span>Product Details</span> 
+                    <span>Delivery & Returns</span> 
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
         </div>
     </div>
-    <div id="recentlyViewed">
-
+    <div class="recentContainer">
+        <p>Recently Viewed</p>
+        <div id="recentlyViewed">
+        </div>
     </div>
     <div id="exclusiveAccess">
         <p>GET EXCLUSIVE ACCESS TO NEW PRODUCTS, DEALS & SURPRISE TREATS</p>

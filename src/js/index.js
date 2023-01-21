@@ -242,12 +242,3 @@ function popup(){
     }, '2000');
 }
 
-// let url = 'product.json';
-// let fetchdata = [];
-// async function fetching(){
-//     let res = await fetch(url);
-//     res = await res.json();
-//     console.log(res);
-// }
-
-// fetching();
