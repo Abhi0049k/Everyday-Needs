@@ -54,12 +54,11 @@
     margin: 12px auto;
 }
 
-#ProductContainer .right .pricingSection h1{
-    margin-right: 12px;
-}
 
 #ProductContainer .right .pricingSection del{
-    color: rgb(164, 164, 164);
+    margin-left: 12px;
+    margin-right: 12px;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 #ProductContainer .right .pricingSection p{
@@ -126,17 +125,16 @@
 
 #ProductContainer .right::-webkit-scrollbar {
     width: 6px;
-    border-radius: 5px;
-    background-color: grey;
   }
 #ProductContainer .right::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
   }
-
-.float{
+  
+  .float{
     position: absolute;
-    top: 200px;
-    left: 590px;
+    top: 10vh;
+    left: 80vh;
     font-size: 24px;
     height: 50px;
     display: flex;
@@ -147,4 +145,49 @@
     width: 350px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 4px;
+}
+
+.recentContainer{
+    margin: 12px auto;
+    padding: 24px;
+}
+
+.recentContainer > p{
+    padding-left: 8px;
+    font-size: 28px;
+}
+
+#recentlyViewed{
+    margin: 12px auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-columns: repeat(99999, 1fr);
+    overflow-x: scroll;
+}
+
+#recentlyViewed::-webkit-scrollbar {
+    height: 6px;
+  }
+#recentlyViewed::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+
+#recentlyViewed > div{
+    padding: 20px;
+    width: 150px;
+    background-color: #ffffff;
+    margin: 2px 8px;
+}
+
+#recentlyViewed > div > img{
+    width: 100%;
+}
+
+#recentlyViewed > div > button {
+    background-color: #20a87e;
+    color: white;
+    border: none;
+    padding: 6px;
+    width: 100%;
 }

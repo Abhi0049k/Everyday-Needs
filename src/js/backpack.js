@@ -123,11 +123,13 @@ async function fetching(){
     let res = await fetch(url);
     res = await res.json();
     fetchdata = [...res.Backpacks];
-    console.log(fetchdata);
+    // console.log(fetchdata);
     display(fetchdata);
 }
 
 fetching();
+
+let recentlyViewed = JSON.parse(localStorage.getItem('recent'))||[];
 
 let productContainerEl = document.querySelector('#productContainer');
 function display(data){
@@ -138,7 +140,7 @@ function display(data){
         
         let img = document.createElement('img');
         img.src = el.img[0];
-        img.addEventListener('mouseenter', function(){
+        img.addEventListener('mouseover', function(){
             img.src = el.img[1];
         })
         img.addEventListener('mouseleave', function(){
@@ -158,9 +160,23 @@ function display(data){
         price.append(actualprice, deleted);
         let offer = document.createElement('h5');
         offer.innerText = el.offer+"*";
+        row.addEventListener('click', function(){
+            if(finding(el)===false)
+            recentlyViewed.push(el);
+            localStorage.setItem('recent', JSON.stringify(recentlyViewed));
+        })
         row.append(linking, title, price, offer);
         productContainerEl.append(row)
     })
+}
+
+function finding(el){
+    let flag = false;
+    recentlyViewed.forEach((element)=>{
+        if(element.title = el.title)
+        flag = true;
+    })
+    return flag;
 }
 
 

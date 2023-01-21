@@ -468,6 +468,7 @@ body{
 
 #productContainer div{
     padding: 12px;
+    height: 460px;
 }
 #productContainer div img{
     width: 100%;
@@ -484,6 +485,7 @@ body{
 
 #productContainer div h5{
     color: rgb(233, 63, 63);
+    margin-bottom: 6px;
 }
 
 #productContainer div{

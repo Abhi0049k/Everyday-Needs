@@ -117,7 +117,8 @@
                 "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-1.png?tr=cm-pad_resize,v-2,w-768,h-653,dpr-1",
                 "https://images.dailyobjects.com/marche/product-images/1201/all-red-pedal-daypack-images/All-Red-Pedal-Daypack-8t.jpg?tr=cm-pad_crop,v-2,w-768,h-653,dpr-1"
             ],
-            "deleteValue": 2499
+            "deleteValue": 2499,
+            "type": "pedal"
         },
         {
             "title": "Ivory - Clove 9 to 9 Backpack",

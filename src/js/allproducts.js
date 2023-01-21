@@ -135,7 +135,13 @@ function display(data) {
             let row = document.createElement('div');
             let linking = document.createElement('a');
             let img = document.createElement('img');
+        img.src = el.img[0];
+        img.addEventListener('mouseover', function(){
+            img.src = el.img[1];
+        })
+        img.addEventListener('mouseleave', function(){
             img.src = el.img[0];
+        })
             linking.append(img);
             linking.setAttribute('href', `./${key}/product${index + 1}.html`);
             let title = document.createElement('p');
