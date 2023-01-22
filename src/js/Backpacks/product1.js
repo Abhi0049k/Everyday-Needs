@@ -77,7 +77,7 @@ let recentItem = JSON.parse(localStorage.getItem('recent'))||[];
 let recentContainer = document.querySelector('#recentlyViewed');
 function display(data){
     recentContainer.innerHTML = '';
-    data.forEach((el)=>{
+    data.forEach((el, index)=>{
         let card = document.createElement('div');
         let img = document.createElement('img');
         img.src = el.img[0];
@@ -96,7 +96,18 @@ function display(data){
             }
         })
         addbtn.innerText = 'Add To Cart';
-        card.append(img, title, price, addbtn);
+        let removebtn = document.createElement('button');
+        let content = document.createElement('img');
+        content.src = 'https://images.dailyobjects.com/marche/icons/bin.png?tr=cm-pad_resize,v-2,w-20,dpr-1';
+        removebtn.append(content);
+        removebtn.style.marginTop = '5px'
+        removebtn.style.backgroundColor = '#F44336'
+        removebtn.addEventListener('click', function(){
+            data.splice(index, 1);
+            localStorage.setItem('recent', JSON.stringify(data));
+            display(data);
+        })
+        card.append(img, title, price, addbtn, removebtn);
         recentContainer.append(card);
     })
 }

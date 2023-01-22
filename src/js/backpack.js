@@ -161,7 +161,7 @@ function display(data){
         let offer = document.createElement('h5');
         offer.innerText = el.offer+"*";
         row.addEventListener('click', function(){
-            if(finding(el)===false)
+            // if(finding(el)===false)
             recentlyViewed.push(el);
             localStorage.setItem('recent', JSON.stringify(recentlyViewed));
         })
@@ -170,14 +170,14 @@ function display(data){
     })
 }
 
-function finding(el){
-    let flag = false;
-    recentlyViewed.forEach((element)=>{
-        if(element.title = el.title)
-        flag = true;
-    })
-    return flag;
-}
+// function finding(el){
+//     let flag = false;
+//     recentlyViewed.forEach((element)=>{
+//         if(element.title = el.title)
+//         flag = true;
+//     })
+//     return flag;
+// }
 
 
 let inp = document.querySelector('#container form');
