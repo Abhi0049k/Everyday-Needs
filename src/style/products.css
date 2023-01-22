@@ -166,11 +166,14 @@
 }
 
 #recentlyViewed::-webkit-scrollbar {
-    height: 6px;
+    height: 5px;
   }
 #recentlyViewed::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
+    height: 3px;
+    box-sizing: content-box;
+    /* padding: 2px; */
   }
 
 #recentlyViewed > div{
