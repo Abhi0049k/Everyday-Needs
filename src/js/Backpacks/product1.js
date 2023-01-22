@@ -103,9 +103,9 @@ function display(data){
         removebtn.style.marginTop = '5px'
         removebtn.style.backgroundColor = '#F44336'
         removebtn.addEventListener('click', function(){
-            data.splice(index, 1);
-            localStorage.setItem('recent', JSON.stringify(data));
-            display(data);
+            recentItem.splice(index, 1);
+            localStorage.setItem('recent', JSON.stringify(recentItem));
+            display(recentItem);
         })
         card.append(img, title, price, addbtn, removebtn);
         recentContainer.append(card);

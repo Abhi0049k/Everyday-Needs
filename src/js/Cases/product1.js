@@ -80,7 +80,7 @@ let recentItem = JSON.parse(localStorage.getItem('recent')) || [];
 let recentContainer = document.querySelector('#recentlyViewed');
 function display(data) {
     recentContainer.innerHTML = '';
-    data.forEach((el) => {
+    data.forEach((el, index) => {
         let card = document.createElement('div');
         let img = document.createElement('img');
         img.src = el.img[0];
@@ -106,9 +106,9 @@ function display(data) {
         removebtn.style.marginTop = '5px'
         removebtn.style.backgroundColor = '#F44336'
         removebtn.addEventListener('click', function(){
-            data.splice(index, 1);
-            localStorage.setItem('recent', JSON.stringify(data));
-            display(data);
+            recentItem.splice(index, 1);
+            localStorage.setItem('recent', JSON.stringify(recentItem));
+            display(recentItem);
         })
         card.append(img, title, price, addbtn, removebtn);
         recentContainer.append(card);
