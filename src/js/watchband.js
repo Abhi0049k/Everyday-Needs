@@ -117,14 +117,13 @@ function popup() {
     }, '2000');
 }
 
-let url = 'product.json';
+let url = 'https://pear-puzzled-goose.cyclic.app/Watchbands';
 let fetchdata = [];
 async function fetching() {
     let res = await fetch(url);
     res = await res.json();
-    fetchdata = [...res.Watchbands];
-    // console.log(fetchdata);
-    display(fetchdata);
+    console.log(res);
+    display(res);
 }
 fetching();
 
