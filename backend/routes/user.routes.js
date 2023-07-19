@@ -19,7 +19,7 @@ userRouter.get('/', auth, async (req, res)=>{
 
 userRouter.post('/register',async (req, res)=>{
     const data = req.body;
-    const saltRounds = Number(process.env.salt)
+    const saltRounds = Number(process.env.SALT_ROUNDS)
     try{
         const email = data.email;
         const user = await userModel.find({email});
