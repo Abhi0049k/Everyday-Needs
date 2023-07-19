@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(237, 235, 235);
+
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#nav img {
+    height: 80px
+}
+
+#credentialsPart {
+    height: inherit;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#credentialsPart i {
+    font-size: 26px;
+    color: black;
+}
+
+/* Discount Banner  */
+.banner {
+    margin: 8px;
+    height: 220px;
+    display: flex;
+}
+
+.banner .left {
+    width: 35%;
+    padding: 34px 0px 0px 34px;
+    background-color: #3fbb2c;
+}
+
+.banner .left h1:nth-child(1) {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner .right {
+    width: 65%;
+    background-color: #ceeaf2;
+    padding: 34px;
+}
+
+.banner .right .first {
+    line-height: 50px;
+}
+
+.banner .right .second {
+    line-height: 55px;
+}
+
+.banner .right .second div {
+    width: 60%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Purchase Section  */
+#purchaseContainer{
+    display: flex;
+    justify-content: center;
+}
+#purchaseContainer #productSide{
+    width: 50%;
+    height: 600px;
+    overflow-y: scroll;
+    padding: 60px 80px 0px 80px;
+    box-sizing: border-box;
+}
+
+/* For Every Product  */
+#productSide > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 12px auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 18px;
+}
+
+#productSide > div > img{
+    width: 120px;
+    object-fit: cover;
+}
+#productSide > div >.right{
+    width: 430px;
+}
+
+
+#productSide > div .right > p{
+    font-size: 26px;
+}
+#productSide > div .right h3{
+    margin: 12px 0px 35px 0px;
+}
+
+#productSide > div .right > div{
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+}
+#productSide > div > .right > div button{
+    border: none;
+    background-color: #ffffff;
+    height: 35px;
+    width: 35px;
+}
+#productSide > div > .right > div > img{
+    height: 30px;
+    width: 30px;
+}
+
+#productSide > div > .right > div > div{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#productSide > div > .right > div > div > button{
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+#productSide > div > .right > div > div > span{
+    margin: 12px;
+    font-size: 20px;
+}
+
+#productSide::-webkit-scrollbar {
+    width: 6px;
+  }
+#productSide::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+#purchaseContainer #billSide{
+    width: 50%;
+    padding: 56px 120px 0px 120px;
+    box-sizing: border-box;
+}
+
+
+#purchaseContainer #billSide .info img{
+    height: 30px;
+    width: 35px;
+}
+
+#purchaseContainer #billSide .info h3{
+    text-align: start;
+    color: rgb(22, 165, 125);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#purchaseContainer #billSide .info{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 12px;
+}
+
+#purchaseContainer #billSide .summary{
+    margin: 20px auto;
+}
+
+#purchaseContainer #billSide .summary button{
+    margin: 8px auto;
+    width: 100%;
+    height: 46px;
+    background-color: #20a87e;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+#purchaseContainer #billSide .summary .pricing{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#purchaseContainer #billSide .summary .pricing div{
+    display: flex;
+    justify-content: space-between;
+    margin:14px auto;
+    font-size: 22px;
+}
+
+#purchaseContainer #loginFirst{
+    background-color: rgb(237, 235, 235);
+    width: 98%;
+    position: absolute;
+    height: 582px;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    display: none;
+}
+
+#purchaseContainer #noOrder{
+    background-color: rgb(237, 235, 235);
+    width: 98%;
+    position: absolute;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    display: none;
+}
+
+#purchaseContainer #noOrder a{
+    text-decoration: none;
+    margin: 8px auto;
+    cursor: pointer;
+    height: 28px;
+    padding: 14px;
+    font-size: 22px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20a87e;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+#purchaseContainer #loginFirst a{
+    text-decoration: none;
+    margin: 8px auto;
+    cursor: pointer;
+    height: 28px;
+    padding: 14px;
+    font-size: 22px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20a87e;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+#networkSection{
+    display: flex;
+    height: 310px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#networkSection .left{
+    padding: 20px;
+    display: flex;
+    width: 70%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+    line-height: 26px;
+}
+#networkSection .left h3{
+    margin-bottom: 4px;
+}
+#networkSection .left .first{
+    width: 26%;
+}
+#networkSection .right{
+    width: 30%;
+    height: 100%;
+}
+#networkSection .right .card{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 20px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#networkSection .right .card:nth-child(2){
+    border-bottom: none;
+}
+#paymentSection{
+    margin: 35px 0px;
+    text-align: center;
+}
+#paymentSection h4{
+    margin-bottom: 24px;
+}
+#copyright{
+    background-color: black;
+    color: white;
+    padding: 32px;
+}
+
+
+#checkout{
+    font-weight: 500;
+    font-size: 18px;
+}
