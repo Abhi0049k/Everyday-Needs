@@ -28,14 +28,13 @@
 
 #ProductContainer .left .rightbtn{
     top: 380px;
-    left: 794px;
+    left: 710px;
 }
 
 #ProductContainer .right{
     width: 50%;
-    /* border: 1px solid green; */
     box-sizing: border-box;
-    padding: 100px 125px 0px 125px;
+    padding: 64px 125px 0px 125px;
     overflow: scroll;
     overflow-x: hidden;
 }

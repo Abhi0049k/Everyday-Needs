@@ -26,6 +26,7 @@ formEl.addEventListener("submit", async function(evnt){
             alert(res.msg);
         }
     }catch(err){
+        console.log(err);
         alert('Something went wrong, Try Again later')
     }
 })
