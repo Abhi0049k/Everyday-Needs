@@ -20,7 +20,7 @@ app.use('/users', userRouter);
 app.use('/products', productRouter);
 app.use('/orders', auth, orderRouter);
 
+connection();
 app.listen(process.env.PORT, ()=>{
-    connection();
     console.log(`Server is running on Port: ${process.env.PORT}`);
 })
