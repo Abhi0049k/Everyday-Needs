@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const userModel = require("../models/user.model");
 const auth = require("../middlewares/auth.middleware");
 const blacklistModel = require("../models/blacklist.model");
-
+require('dotenv').config();
 const userRouter = Router();
 
 userRouter.get('/', auth, async (req, res)=>{
