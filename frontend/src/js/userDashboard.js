@@ -1,4 +1,4 @@
-const baseServerURI = 'http://localhost:8998/';
+const baseServerURI = 'https://shy-red-rabbit-sari.cyclic.app/';
 const personalInfoEl = document.querySelector('#personalInfo');
 const personalOrderEl = document.querySelector('#personalOrder');
 const usernameEl = document.querySelector('#username');

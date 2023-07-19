@@ -1,5 +1,5 @@
 const title = document.querySelector('title');
-const serverURI = 'http://localhost:8998';
+const serverURI = 'https://shy-red-rabbit-sari.cyclic.app';
 const imgContainer = document.querySelector('#ProductContainer .left img');
 const rightContainer = document.querySelector('#ProductContainer .right');
 const recentContainer = document.querySelector('#recentlyViewed');

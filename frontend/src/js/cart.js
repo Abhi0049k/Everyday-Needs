@@ -6,7 +6,7 @@ const grandEl = document.querySelector('#grandtotal');
 const totalEl = document.querySelector('#total');
 const discountEl = document.querySelector('#totalDiscount');
 const checkoutBtn = document.querySelector('#checkout');
-const serverURI = 'http://localhost:8998/orders/'
+const serverURI = 'https://shy-red-rabbit-sari.cyclic.app/orders/'
 let token;
 
 checkoutBtn.addEventListener('click', async ()=>{

@@ -1,4 +1,4 @@
-let serverURI = 'http://localhost:8998/products/all?category=organiser';
+let serverURI = 'https://shy-red-rabbit-sari.cyclic.app/products/all?category=organiser';
 let fetchdata = [];
 async function fetching() {
     let res = await fetch(serverURI);

@@ -1,4 +1,4 @@
-const url = 'http://localhost:8998/users/login';
+const url = 'https://shy-red-rabbit-sari.cyclic.app/users/login';
 
 const emailEl = document.querySelector('#email');
 const passEl = document.querySelector('#password');

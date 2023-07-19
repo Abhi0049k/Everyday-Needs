@@ -1,4 +1,4 @@
-const url = 'http://localhost:8998/users/register';
+const url = 'https://shy-red-rabbit-sari.cyclic.app/users/register';
 
 const formEl = document.querySelector('form');
 const nameEl = document.querySelector('#name');
