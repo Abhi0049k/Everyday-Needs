@@ -1,12 +1,12 @@
 
 # Everyday Needs
 
-Clone of a e-commerce website which basically focuses on selling mobile covers, backpacks and watchbands
+Clone of an e-commerce website which basically focuses on selling mobile covers, backpacks and watchbands
 
 
 ## Contributing
 
-This is an individual project build within a span of five day.
+This is an individual project built within a span of five days.
 
 
 ## Deployment
