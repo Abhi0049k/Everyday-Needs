@@ -1,4 +1,4 @@
-
+![Logo](https://raw.githubusercontent.com/Abhi0049k/Everyday-Needs/main/frontend/icon/Everyday%20needs-logos.jpeg)
 # Everyday Needs
 
 Clone of an e-commerce website which basically focuses on selling mobile covers, backpacks and watchbands
@@ -64,7 +64,7 @@ User Dashboard
 Clone the project
 
 ```bash
-  git clone git@github.com:Abhi0049k/Group-Chat.git
+  git@github.com:Abhi0049k/Everyday-Needs.git
 ```
 
 Go to the backend directory
@@ -79,7 +79,7 @@ Install dependencies
   npm install
 ```
 ##
-Before running the Backend server on your local system do setup the .env
+Before running the Backend server on your local system setup the .env
 ##
 
 Start the server
