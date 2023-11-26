@@ -1,6 +1,6 @@
-FROM mhart/alpine-node
+FROM node:alpine
 
-WORKDIR /usr/src/app
+WORKDIR /backend
 
 COPY package*.json ./
 
