@@ -1,8 +1,11 @@
 import { FC } from "react";
+import Banner from "../components/Banner";
 
 const Home: FC = ()=>{
     return (
-        <h1>This is the Home Page</h1>
+        <>
+        <Banner/>
+        </>
     )
 }
 
