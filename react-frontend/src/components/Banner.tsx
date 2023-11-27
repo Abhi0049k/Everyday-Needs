@@ -3,9 +3,9 @@ import { FC } from "react";
 const Banner: FC = () => {
     return (
         <>
-            <div className="m-2 h-56 flex">
+            <div className="m-2 h-56 2xl:flex hidden">
                 <div className="bg-[#3fbb2c] pl-8 pt-8 w-1/3">
-                    <h1 className="text-[60px] mb-2">UPTO 70% OFF</h1>
+                    <h1 className="text-[4rem] mb-2">UPTO 70% OFF</h1>
                     <h1 className="text-[46px]">NEW YEAR SALE</h1>
                 </div>
                 <div className="bg-[#ceeaf2] w-2/3 p-8">
