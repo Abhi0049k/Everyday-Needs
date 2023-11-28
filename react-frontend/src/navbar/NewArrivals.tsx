@@ -5,7 +5,7 @@ import { dropdownI } from "./dropdownInterface";
 const NewArrivals: FC<dropdownI> = ({handleDropIn, handleDropOut}) => {
     return (
         <>
-            <div id="newArrivals" className="bg-white absolute flex justify-between w-full border-b" onMouseEnter={()=> handleDropIn("newArrival")} onMouseLeave={handleDropOut}>
+            <div id="newArrivals" className="bg-white absolute z-10 flex justify-between w-full border-b" onMouseEnter={()=> handleDropIn("newArrival")} onMouseLeave={handleDropOut}>
                 <div className="p-[34px] border-r w-1/5">
                     <h4 className="mb-[20px] font-semibold text-lg">NEW ARRIVALS</h4>
                     <div>

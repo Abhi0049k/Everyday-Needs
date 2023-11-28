@@ -4,7 +4,7 @@ import { dropdownI } from "./dropdownInterface";
 const Accessories: FC<dropdownI> = ({handleDropIn, handleDropOut}) => {
     return (
         <>
-            <div className="bg-white absolute flex justify-between leading-8 border-b" onMouseEnter={()=>handleDropIn("accessories")} onMouseLeave={handleDropOut}>
+            <div className="bg-white z-10 absolute flex justify-between leading-8 border-b" onMouseEnter={()=>handleDropIn("accessories")} onMouseLeave={handleDropOut}>
                 <div className="p-5 border-r cursor-pointer w-1/5">
                     <h4 className="text-lg font-semibold mb-[12px]">WATCH ACCESSORIES</h4>
                     <p className="hover:underline text-lg">Apple Watchbands</p>
