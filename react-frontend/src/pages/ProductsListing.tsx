@@ -7,7 +7,8 @@ import { useSearchParams } from "react-router-dom";
 const ProductListing : FC = ()=>{
     let [searchParams, setSearchParams] = useSearchParams();
     const category = searchParams.get("category");
-    const url = category ? (`http://localhost:8998/products/all?category=${category}`): 'http://localhost:8998/products/all'
+    const url = (category && category!=="all") ? `http://localhost:8998/products/all?category=${category}` : 'http://localhost:8998/products/all';
+    if(!category) setSearchParams({category: "all"});
     const [products, setProducts] = useState<Array<productI>>([])
     useEffect(()=>{
         getProducts().then((res: productI[])=>{
