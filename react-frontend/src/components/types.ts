@@ -14,3 +14,14 @@ export interface CategoryComponentI{
     msg: string;
     products: Array<CategoriesI>
 }
+
+export interface productI{
+    _id: string;
+    title: string;
+    price: number;
+    category: string;
+    offer: string;
+    img: Array<string>;
+    deleteValue: number;
+    type: string;
+}
