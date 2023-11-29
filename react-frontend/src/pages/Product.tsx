@@ -10,18 +10,19 @@ const Product: FC = () => {
     const { id } = useParams();
     useEffect(() => {
         getProductDetails()
+        document.title = el?.title || 'Product'
     }, [])
+
     const getProductDetails = async () => {
         const product: AxiosResponse<productI> = await axios.get(`http://localhost:8998/products/${id}`)
         setEl(product.data);
     }
+
     const handleNxtImg = () => {
         const len: number | undefined = el?.img?.length
         if (len)
             setIndex((prev) => (prev + 1) % len)
     }
-
-    console.log(index, el?.img.length);
 
     const handlePrvImg = () => {
         const len: number | undefined = el?.img?.length

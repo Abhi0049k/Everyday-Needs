@@ -19,7 +19,7 @@ const ProductDetails : FC<productDetailsI> = ({_id, title, price, category, offe
             <h4 className="text-lg font-semibold">*{offer}</h4>
         </div>
         <div className="flex my-[30px] mx-auto">
-            <input type="text" placeholder="Enter Pincode To Check Delivery" className="border-none py-[6px] px-[12px] text-gray-400 outline-none h-[50px] w-[80%] text-xl bg-white" />
+            <input type="text" placeholder="Enter Pincode To Check Delivery" className="border-none py-[6px] px-[12px] text-gray-400 outline-none h-[55px] w-[80%] text-xl bg-white" />
             <button className="w-[20%] border-none text-lg font-bold text-white bg-gray-400">CHECK</button>
         </div>
         <div className="my-[20px] mx-auto text-[22px]">

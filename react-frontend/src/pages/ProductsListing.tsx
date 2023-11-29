@@ -8,7 +8,12 @@ const ProductListing : FC = ()=>{
     let [searchParams, setSearchParams] = useSearchParams();
     const category = searchParams.get("category");
     const url = (category && category!=="all") ? `http://localhost:8998/products/all?category=${category}` : 'http://localhost:8998/products/all';
-    if(!category) setSearchParams({category: "all"});
+    if(!category || category==='all'){
+        setSearchParams({category: "all"});
+        document.title = "Products List"
+    } else{
+        document.title = `Products: ${category.toUpperCase()}`
+    }
     const [products, setProducts] = useState<Array<productI>>([])
     useEffect(()=>{
         getProducts().then((res: productI[])=>{
