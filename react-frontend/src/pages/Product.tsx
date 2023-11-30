@@ -1,17 +1,26 @@
 import { FC, useEffect, useState } from "react";
-import { productI } from "../components/types";
+import { productI, storeI } from "../components/types";
 import axios, { AxiosResponse } from "axios";
 import { useParams } from "react-router-dom";
 import ProductDetails from "../components/ProductDetails";
+import { useSelector } from "react-redux";
 
 const Product: FC = () => {
     const [el, setEl] = useState<productI>();
     const [index, setIndex] = useState<number>(0);
+    const authstore = useSelector((store: storeI):{isAuth: boolean; token: string;}=>( {isAuth: store.authReducer.isAuth, token: store.authReducer.token}));
     const { id } = useParams();
     useEffect(() => {
         getProductDetails()
         document.title = el?.title || 'Product'
     }, [])
+
+    const handleAddtoCart = (id: string | undefined)=>{
+        if(!authstore.isAuth){
+            return alert('Please login to add the product to your cart.');
+        }
+        console.log(id)
+    }
 
     const getProductDetails = async () => {
         const product: AxiosResponse<productI> = await axios.get(`http://localhost:8998/products/${id}`)
@@ -41,7 +50,7 @@ const Product: FC = () => {
                         <i className="fa-sharp fa-solid fa-angle-right"></i>
                     </button>
                 </div>
-                <ProductDetails _id={el?._id} title={el?.title} price={el?.price} category={el?.category} offer={el?.offer} deleteValue={el?.deleteValue} type={el?.type} />
+                <ProductDetails {...el} handleAddtoCart={handleAddtoCart} />
             </div>
         </>
     )

@@ -1,7 +1,8 @@
 import { FC } from "react";
-import { productDetailsI } from "./types";
+import { ProductDetailPropsI } from "./types";
 
-const ProductDetails : FC<productDetailsI> = ({_id, title, price, category, offer, deleteValue, type})=>{
+
+const ProductDetails : FC<ProductDetailPropsI> = ({_id, title, price, offer, deleteValue,  handleAddtoCart})=>{
     return (
         <>
         <div className="lg:w-2/4 w-full box-border pt-16 lg:px-[125px] px-3 md:px-[24px] overflow-scroll overflow-x-hidden bg-gray-50">
@@ -13,7 +14,7 @@ const ProductDetails : FC<productDetailsI> = ({_id, title, price, category, offe
         <p className="flex text-base">
             Extra 10% cashback upto INR 500 with <img src="https://images.dailyobjects.com/marche/icons/zest-updated.png?tr=cm-pad_resize,v-2,h-18,dpr-1" alt="img" />
         </p>
-        <button className="my-[22px] mx-auto h-[60px] bg-[#20a87e] text-white border-none w-full text-lg">ADD TO CART</button>
+        <button className="my-[22px] mx-auto h-[60px] bg-[#20a87e] hover:bg-[#178e68] text-white border-none w-full text-lg" onClick={()=>handleAddtoCart(_id!)}>ADD TO CART</button>
         <div className="flex justify-start items-center my-[14px] mr-auto text-[#c21122]">
             <i className="fa-solid fa-tag text-lg"></i>
             <h4 className="text-lg font-semibold">*{offer}</h4>
