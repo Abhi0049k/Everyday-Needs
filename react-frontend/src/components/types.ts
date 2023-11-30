@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface imageC {
     img: string;
     to: string;
@@ -14,8 +16,6 @@ export interface CategoryComponentI {
     msg: string;
     products: Array<CategoriesI>
 }
-
-
 
 export interface productDetailsI {
     _id?: string;
@@ -59,3 +59,28 @@ export interface HandleAddtoCart {
 
 
 export interface ProductDetailPropsI extends productDetailsI, HandleAddtoCart {};
+
+export interface LayoutProps {
+    children: ReactNode;
+}
+
+export interface loginI{
+    email: string;
+    password: string;
+}
+
+export interface registerI extends loginI{
+    name: string;
+}
+
+export interface loginPageI {
+    isAuth: boolean;
+    isError: boolean;
+    errorMessage: string;
+    isLoading: boolean;
+}
+
+export interface loginResponseI{
+    msg: string;
+    token?: string;
+}

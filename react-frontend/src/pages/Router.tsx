@@ -6,14 +6,15 @@ import Cart from "./Cart";
 import Register from "./Register";
 import Login from "./Login";
 import Product from "./Product";
+import Layout from "../Layout/Layout";
 
 const Router: FC = ()=>{
     return (
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/products" element={<ProductListing/>} />
-            <Route path="/products/:id" element={<Product/>} />
-            <Route path="/cart" element={<Cart/>}/>
+            <Route path="/" element={<Layout><Home/></Layout>} />
+            <Route path="/products" element={<Layout><ProductListing/></Layout>} />
+            <Route path="/products/:id" element={<Layout><Product/></Layout>} />
+            <Route path="/cart" element={<Layout><Cart/></Layout>}/>
             <Route path="/register" element={<Register/>}/>
             <Route path="/login" element={<Login/>}/>
         </Routes>

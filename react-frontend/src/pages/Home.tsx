@@ -11,7 +11,7 @@ const Home: FC = ()=>{
         <Banner/>
         <ImageComponent img="https://images.dailyobjects.com/marche/assets/images/other/backpack-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1" to="/products?category=backpack"/>
         <CategoryGeneric heading={"SHOP CATEGORIES"} msg={"Now browse our selection of carefully curated products in sorted categories."} products={shopCategories}/>
-        <ImageComponent img="https://images.dailyobjects.com/marche/assets/images/other/watchbands-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1" to="/products?category=watchbands"/>
+        <ImageComponent img="https://images.dailyobjects.com/marche/assets/images/other/watchbands-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1" to="/products?category=watchband"/>
         <ImageComponent img="https://images.dailyobjects.com/marche/assets/images/other/messenger-bags-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1" to="/products?category=messengerbag"/>
         <CategoryGeneric heading={"NEW ARRIVALS"} msg={"Check out our newest launches."} products={newarrivalCards}/>
         <ImageComponent img="https://images.dailyobjects.com/marche/assets/images/other/organisers-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1" to="/products"/>

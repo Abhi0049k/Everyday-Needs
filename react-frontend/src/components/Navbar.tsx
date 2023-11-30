@@ -1,14 +1,18 @@
 import { FC, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import NewArrivals from "../navbar/NewArrivals";
 import CasesSleeves from "../navbar/CasesSleeves";
 import Accessories from "../navbar/Accessories";
 import BagsWallets from "../navbar/BagsWallets";
 import HomeOffice from "../navbar/HomeOffice";
 import Collections from "../navbar/Collections";
+import { useSelector } from "react-redux";
+import { storeI } from "./types";
 
 const Navbar: FC = () => {
     const [dropdownContext, setDropdownContext] = useState<string>('')
+    const location = useLocation();
+    const isAuth: boolean = useSelector((store: storeI): boolean => store.authReducer.isAuth)
     const handleDropIn = (context: string) => {
         setDropdownContext(context);
     }
@@ -35,7 +39,7 @@ const Navbar: FC = () => {
                     <Link to={"/cart"}>
                         <i className="fa-solid fa-bag-shopping text-2xl"></i>
                     </Link>
-                    <Link to={"/userdashboard"}>
+                    <Link to={isAuth ? "/userdashboard": "/login"} state={location}>
                         <i className="fa-solid fa-user text-2xl"></i>
                     </Link>
                     <Link to={"/products"}>
