@@ -84,3 +84,43 @@ export interface loginResponseI{
     msg: string;
     token?: string;
 }
+
+export interface credI{
+    name?: string;
+    email?: string;
+    password?: string;
+}
+
+export interface HandleChange{
+    handleChange: (evnt: React.ChangeEvent<HTMLInputElement>)=> void
+}
+
+export interface OrderI{
+    token: string;
+}
+
+/**
+ * discount: number;
+ * img: string;
+ * price: number;
+ * productId: string;
+ * qty: number;
+ * status: string;
+ * title: string;
+ * userId: string;
+ * _v: number;
+ * _id: string;
+ */
+
+export interface bookedOrderI{
+    img: string;
+    price: number;
+    qty: number;
+    title: string;
+    discount?: number;
+    productId?: string;
+    status?: string;
+    userId?: string;
+    _v?: string;
+    _id?: string;
+}

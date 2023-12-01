@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from "react";
-import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { loginI, loginResponseI, storeI } from "../components/types";
 import { useDispatch, useSelector } from "react-redux";
 import axios, { AxiosResponse } from "axios";
@@ -61,7 +61,7 @@ const Login: FC = () => {
                 : "Login";
 
     const buttonBgColor = isError ? "#e52730" : "#20a87e"
-    
+
     return (
         <>
             <div className="flex flex-row w-full justify-center mt-10">

@@ -7,6 +7,7 @@ import Register from "./Register";
 import Login from "./Login";
 import Product from "./Product";
 import Layout from "../Layout/Layout";
+import UserDashboard from "./UserDashboard";
 
 const Router: FC = ()=>{
     return (
@@ -15,6 +16,7 @@ const Router: FC = ()=>{
             <Route path="/products" element={<Layout><ProductListing/></Layout>} />
             <Route path="/products/:id" element={<Layout><Product/></Layout>} />
             <Route path="/cart" element={<Layout><Cart/></Layout>}/>
+            <Route path="/userdashboard" element={<Layout><UserDashboard/></Layout>}/>
             <Route path="/register" element={<Register/>}/>
             <Route path="/login" element={<Login/>}/>
         </Routes>

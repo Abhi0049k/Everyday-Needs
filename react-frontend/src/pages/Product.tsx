@@ -20,7 +20,23 @@ const Product: FC = () => {
         if(!authstore.isAuth){
             return alert('Please login to add the product to your cart.');
         }
-        console.log(id)
+        addToCart(id!);
+    }
+
+    const addToCart = async (id: string) =>{
+        try{
+            const res: AxiosResponse = await axios.post('http://localhost:8998/orders/placeOrder', {productId: id}, {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${authstore.token}`
+                }
+            })
+            console.log(res);
+            alert('Product Added')
+        }catch(err){
+            console.log('Something went wrong');
+            console.log(err);
+        }
     }
 
     const getProductDetails = async () => {
