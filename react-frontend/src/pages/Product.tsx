@@ -9,6 +9,7 @@ const Product: FC = () => {
     const [el, setEl] = useState<productI>();
     const [index, setIndex] = useState<number>(0);
     const authstore = useSelector((store: storeI):{isAuth: boolean; token: string;}=>( {isAuth: store.authReducer.isAuth, token: store.authReducer.token}));
+    console.log(authstore);
     const { id } = useParams();
     useEffect(() => {
         getProductDetails()

@@ -1,6 +1,6 @@
 import { AuthI } from "../../components/types";
 import { ActionI } from "../../components/types";
-import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS } from "../actionTypes";
+import { FAILURE, REQUEST, LOGIN_SUCCESS, REGISTER_SUCCESS } from "../actionTypes";
 
 const initialState: AuthI = {
     isAuth: false,
@@ -12,12 +12,14 @@ const initialState: AuthI = {
 
 export const reducer = (state=initialState, {type, payload}: ActionI) : AuthI=>{
     switch(type){
-        case LOGIN_REQUEST:
+        case REQUEST:
             return {...state, isLoading: true}
-        case LOGIN_FAILURE:
+        case FAILURE:
             return {...state, isLoading: false, isError: true, errorMessage: payload}
         case LOGIN_SUCCESS:
             return {...state, isLoading: false, isError: false, token: payload, isAuth: true}
+        case REGISTER_SUCCESS:
+            return {...state, isLoading: false, isError: false}
         default:
             return state;
     }

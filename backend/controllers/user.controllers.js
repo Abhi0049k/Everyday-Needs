@@ -32,9 +32,9 @@ const registerUser = async (req, res) => {
 }
 
 const loginUser = async (req, res) => {
-    const data = req.body;
-    const secretKey = process.env.SECRET_KEY;
     try {
+        const data = req.body;
+        const secretKey = process.env.SECRET_KEY;
         const { email } = data;
         const user = await userModel.findOne({ email });
         let result = await bcrypt.compare(data.password, user.password);
