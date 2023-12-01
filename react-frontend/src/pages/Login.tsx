@@ -29,39 +29,41 @@ const Login: FC = () => {
 
     const loginFn = async () => {
         try {
-            dispatch({ type: 'LOGIN_REQUEST' })
+            dispatch({ type: 'REQUEST' })
             let res: AxiosResponse<loginResponseI> = await axios.post('http://localhost:8998/users/login', cred)
             dispatch({ type: 'LOGIN_SUCCESS', payload: res?.data?.token });
-            navigate(location.state);
+            location.state ? navigate(location.state) : navigate("/") 
         } catch (err) {
             if (axios.isAxiosError<loginResponseI>(err)) {
                 const { response } = err;
                 if (response) {
-                    dispatch({ type: 'LOGIN_FAILURE', payload: response.data.msg });
+                    dispatch({ type: 'FAILURE', payload: response.data.msg });
                 } else {
-                    dispatch({ type: 'LOGIN_FAILURE', payload: err });
+                    dispatch({ type: 'FAILURE', payload: err });
                 }
             } else {
-                dispatch({ type: 'LOGIN_FAILURE', payload: 'An unexpected error occurred' });
+                dispatch({ type: 'FAILURE', payload: 'An unexpected error occurred' });
             }
         }
     }
 
     useEffect(() => {
-        document.title = 'Login | Everyday Needs';
+        document.title = "Login | Everyday Needs";
+        isAuth ? location.state ? navigate(location.state) : navigate("/") : ""
     }, []);
 
     const buttonText = isError
         ? errorMessage
         : isLoading
-            ? 'Logging....'
+            ? "Logging...."
             : !isLoading && isAuth
-                ? 'Logged In'
-                : 'Login';
-    const buttonBgColor = isError ? '#e52730' : '#20a87e'
+                ? "Logged In"
+                : "Login";
+
+    const buttonBgColor = isError ? "#e52730" : "#20a87e"
+    
     return (
         <>
-            {isAuth ? <Navigate to={location.state} /> : ''}
             <div className="flex flex-row w-full justify-center mt-10">
                 <div className="p-7 flex flex-col shadow-xl w-96 rounded-lg bg-opacity-40 bg-gray-100">
                     <h1 className="text-4xl font-semibold">Login</h1>
@@ -88,7 +90,7 @@ const Login: FC = () => {
                         <input
                             type="submit"
                             value={buttonText}
-                            className={`bg-[${buttonBgColor}] hover:bg-[#178e68] w-full h-12 border-none outline-none border-b text-xl pl-4 rounded-lg text-white cursor-pointer`}
+                            className={`text-center bg-[${buttonBgColor}] hover:bg-[#178e68] w-full h-12 border-none outline-none border-b text-xl rounded-lg text-white cursor-pointer`}
                         />
                         <span className="border-b"></span>
                         <button className="flex justify-center border rounded-lg items-center text-xl text-gray-700 font-semibold p-1 gap-1 hover:bg-gray-200">

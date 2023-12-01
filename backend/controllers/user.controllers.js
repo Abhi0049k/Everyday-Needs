@@ -15,18 +15,21 @@ const getUser = async (req, res) => {
 }
 
 const registerUser = async (req, res) => {
-    const data = req.body;
-    const saltRounds = Number(process.env.SALT_ROUNDS)
     try {
+        const data = req.body;
+        const saltRounds = Number(process.env.SALT_ROUNDS)
         const email = data.email;
-        const user = await userModel.find({ email });
-        if (user.length > 0)
+        const user = await userModel.findOne({ email });
+        if (user) {
             return res.status(400).send({ "msg": "User already exist, please login" })
-        data.password = await bcrypt.hash(data.password, saltRounds);
-        const newUser = new userModel(data);
-        await newUser.save();
-        res.status(200).send({ "msg": "Registration Successful" })
+        } else {
+            data.password = await bcrypt.hash(data.password, saltRounds);
+            const newUser = new userModel(data);
+            await newUser.save();
+            res.status(200).send({ "msg": "Registration Successful" })
+        }
     } catch (err) {
+        console.log(err);
         res.status(500).send({ "msg": "Something went wrong" })
     }
 }
