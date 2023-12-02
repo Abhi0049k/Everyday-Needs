@@ -64,8 +64,8 @@ const Register: FC = () => {
     const buttonBgColor = isError ? "#e52730" : "#20a87e"
 
     return (
-        <>
-            <div className="flex flex-row w-full justify-center mt-10">
+        <div className="bg-gradient-to-r from-sky-500 to-indigo-500 w-full h-screen">
+            <div className="flex flex-row w-full h-[80vh] justify-center items-center">
                 <div className="p-7 flex flex-col shadow-xl w-96 rounded-lg bg-opacity-40 bg-gray-100">
                     <h1 className="text-4xl font-semibold">Register</h1>
                     <form className="flex flex-col gap-4 mt-4" onSubmit={handleSubmit}>
@@ -103,7 +103,7 @@ const Register: FC = () => {
                     </form>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
