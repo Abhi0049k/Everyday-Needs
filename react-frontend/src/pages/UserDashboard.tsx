@@ -12,11 +12,7 @@ const UserDashboard: FC = () => {
     const [section, setSection] = useState<"personInfo"|"orders"|"">("")
     const dispatch = useDispatch();
     const authstore = useSelector((store: storeI):{isAuth: boolean; token: string;}=>( {isAuth: store.authReducer.isAuth, token: store.authReducer.token}));
-
-    const handleChange = (evnt: React.ChangeEvent<HTMLInputElement>) => {
-        console.log(evnt.target.name, evnt.target.value)
-        setCred({ ...cred, [evnt.target.name]: evnt.target.value })
-    }
+    const [change, setChange] = useState<number>(0);
 
     const handleLogout = async()=>{
         try{
@@ -40,7 +36,7 @@ const UserDashboard: FC = () => {
     useEffect(()=>{
         document.title = 'User Dashboard'
         getDetails();
-    },[])
+    },[change])
 
     const getDetails = async()=>{
         try{
@@ -57,6 +53,7 @@ const UserDashboard: FC = () => {
             console.log(err);
         }
     }
+    console.log(authstore);
 
     return (
         <div className="flex flex-col justify-center items-center gap-6 my-6 mx-auto">
@@ -76,7 +73,7 @@ const UserDashboard: FC = () => {
                 <div className="md:py-16 md:px-9 w-full md:w-[72%] flex justify-center items-center md:border-l">
                     {
                         (section === "personInfo")
-                        ? <PersonalInfo name={cred.name} email={cred.email} handleChange={handleChange} />
+                        ? <PersonalInfo name={cred.name} email={cred.email} setChange={setChange} token={authstore.token} />
                         : (section==="orders")
                         ? <Order token={authstore.token} /> : ""
                     }

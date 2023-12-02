@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, SetStateAction } from "react";
 
 export interface imageC {
     img: string;
@@ -93,6 +93,10 @@ export interface credI{
 
 export interface HandleChange{
     handleChange: (evnt: React.ChangeEvent<HTMLInputElement>)=> void
+}
+
+export interface ChangeI{
+    setChange: React.Dispatch<SetStateAction<number>>;
 }
 
 export interface OrderI{
