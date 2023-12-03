@@ -25,7 +25,7 @@ const UserDashboard: FC = () => {
             })
             if (res.statusText==='OK'){
                 dispatch({type: 'LOGOUT_SUCCESS'})
-                navigate("/");
+                navigate("");
             }
         }catch(err){
             console.log(err);
@@ -53,7 +53,6 @@ const UserDashboard: FC = () => {
             console.log(err);
         }
     }
-    console.log(authstore);
 
     return (
         <div className="flex flex-col justify-center items-center gap-6 my-6 mx-auto">

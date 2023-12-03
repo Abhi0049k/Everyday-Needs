@@ -103,19 +103,6 @@ export interface OrderI{
     token: string;
 }
 
-/**
- * discount: number;
- * img: string;
- * price: number;
- * productId: string;
- * qty: number;
- * status: string;
- * title: string;
- * userId: string;
- * _v: number;
- * _id: string;
- */
-
 export interface bookedOrderI{
     img: string;
     price: number;
@@ -127,4 +114,8 @@ export interface bookedOrderI{
     userId?: string;
     _v?: string;
     _id?: string;
+}
+
+export interface cartOrderI extends bookedOrderI{
+    __v?: string;
 }

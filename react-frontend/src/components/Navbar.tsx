@@ -27,13 +27,13 @@ const Navbar: FC = () => {
                     <img src="/Everyday needs-logos_black.png" alt="Brand Logo" className="h-full" />
                 </Link>
                 <div id="pages" className="px-4 h-full lg:flex lg:justify-center lg:items-center lg:gap-4 hidden text-base font-medium">
-                    <Link className="h-full flex items-center font-bold" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("newArrival")}>NEW ARRIVALS</Link>
-                    <Link className="h-full flex items-center font-bold" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("casesSleeves")}>CASES & SLEEVES</Link>
-                    <Link className="h-full flex items-center font-bold" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("accessories")}>ACCESSORIES</Link>
-                    <Link className="h-full flex items-center font-bold" to="#">SALE</Link>
-                    <Link className="h-full flex items-center font-bold" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("bagsWallet")}>BAGS & WALLETS</Link>
-                    <Link className="h-full flex items-center font-bold" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("homeOffice")}>HOME OFFICE</Link>
-                    <Link className="h-full flex items-center font-bold" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("collection")}>COLLECTION</Link>
+                    <Link className="h-full flex items-center font-bold hover:text-[#20a87e]" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("newArrival")}>NEW ARRIVALS</Link>
+                    <Link className="h-full flex items-center font-bold hover:text-[#20a87e]" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("casesSleeves")}>CASES & SLEEVES</Link>
+                    <Link className="h-full flex items-center font-bold hover:text-[#20a87e]" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("accessories")}>ACCESSORIES</Link>
+                    <Link className="h-full flex items-center font-bold hover:text-[#20a87e]" to="#">SALE</Link>
+                    <Link className="h-full flex items-center font-bold hover:text-[#20a87e]" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("bagsWallet")}>BAGS & WALLETS</Link>
+                    <Link className="h-full flex items-center font-bold hover:text-[#20a87e]" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("homeOffice")}>HOME OFFICE</Link>
+                    <Link className="h-full flex items-center font-bold hover:text-[#20a87e]" to="#" onMouseLeave={handleDropOut} onMouseEnter={() => handleDropIn("collection")}>COLLECTION</Link>
                 </div>
                 <div className="h-full md:px-4 flex items-center justify-evenly gap-6">
                     <Link to={"/cart"}>
