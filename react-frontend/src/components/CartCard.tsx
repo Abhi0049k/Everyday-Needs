@@ -12,8 +12,8 @@ const CartCard: FC<cartOrderI & { setChange: React.Dispatch<SetStateAction<numbe
                     'Authorization': `Bearer ${token}`
                 }
             })
-            if (res.statusText === 'OK')
-                setChange((prev) => prev + 1)
+            console.log(res);
+            setChange((prev) => prev + 1)
         } catch (err) {
             if (axios.isAxiosError(err)) {
                 const msg = err.response?.data.msg;
@@ -30,9 +30,7 @@ const CartCard: FC<cartOrderI & { setChange: React.Dispatch<SetStateAction<numbe
                 }
             })
             console.log(res);
-            if (res.statusText === 'OK') {
-                setChange((prev) => prev + 1)
-            }
+            setChange((prev) => prev + 1)
         } catch (err) {
             if (axios.isAxiosError(err)) {
                 const msg = err.response?.data.msg;
@@ -49,7 +47,7 @@ const CartCard: FC<cartOrderI & { setChange: React.Dispatch<SetStateAction<numbe
                 }
             })
             console.log(res);
-            if (res.statusText === 'OK') setChange((prev) => prev + 1);
+            setChange((prev) => prev + 1);
         } catch (err) {
             console.log(err);
         }

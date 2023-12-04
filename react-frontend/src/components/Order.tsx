@@ -13,22 +13,21 @@ const Order: FC<OrderI> = ({ token }) => {
 
     const fetchOrders = async () => {
         try {
-            let list = await axios.get(`${backendServerUrl}orders/bookedOrders`, {
+            const list = await axios.get(`${backendServerUrl}orders/bookedOrders`, {
                 headers: {
                     'Content-Type': 'application/json',
                     Authorization: `Bearer ${token}`
                 }
             })
             console.log(list);
-            if (list.statusText === "OK")
-                setOrder(list.data);
+            setOrder(list.data);
         } catch (err) {
             console.log(err);
         }
     }
 
     return (
-        <div className="w-full md:h-[600px] overflow-y-scroll md:pt-[14px] lg:px-20 md:px-10 box-border flex flex-col gap-2">
+        <div className="w-full md:h-full overflow-y-scroll md:pt-[12px] lg:px-20 md:px-10 box-border flex flex-col gap-2">
             {
                 orders?.map((el: bookedOrderI, i: number) => <OrderCard key={i} img={el.img} title={el.title} price={el.price} qty={el.qty} />)
             }

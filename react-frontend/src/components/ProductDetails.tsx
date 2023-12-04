@@ -8,7 +8,7 @@ const ProductDetails : FC<ProductDetailPropsI> = ({_id, title, price, offer, del
         <div className="lg:w-2/4 w-full box-border pt-16 lg:px-[125px] px-3 md:px-[24px] overflow-scroll overflow-x-hidden bg-gray-50">
         <p className="mb-[6px] text-2xl">{title}</p>
         <div className="flex justify-start items-center mx-auto my-3">
-            <h1 className="lg:text-4xl font-bold text-xl">Rs. {price} <del className="mx-3 text-gray-400">Rs. {deleteValue}</del></h1>
+            <h1 className="lg:text-2xl font-bold text-xl">Rs. {price} <del className="mx-3 text-gray-400">Rs. {deleteValue}</del></h1>
             <p className="text-base text-gray-400">Inclusive of all taxes</p>
         </div>
         <p className="flex text-base">

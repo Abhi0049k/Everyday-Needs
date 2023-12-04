@@ -30,7 +30,8 @@ const PersonalInfo: FC<credI & ChangeI & { token: string }> = ({ name, email, se
                         authorization: `Bearer ${token}`
                     }
                 })
-            if (res.statusText === "OK") alert("User Details Updated");
+            console.log(res);
+            alert("User Details Updated");
         } catch (err) {
             console.log(err);
         }

@@ -43,9 +43,7 @@ const OrderSummary: FC<{ setEmpty: React.Dispatch<SetStateAction<boolean>> }> = 
                     Authorization: `Bearer ${authstore.token}`
                 }
             })
-            if (res.statusText === "OK") {
-                setOrder(Array.isArray(res.data) ? res.data : [res.data]);
-            }
+            setOrder(Array.isArray(res.data) ? res.data : [res.data]);
         } catch (err) {
             console.log(err);
         }
@@ -61,10 +59,8 @@ const OrderSummary: FC<{ setEmpty: React.Dispatch<SetStateAction<boolean>> }> = 
                     'Authorization': `Bearer ${authstore.token}`
                 }
             })
-            if (res.statusText === 'OK') {
-                alert(res.data.msg);
-                setChange((prev) => prev + 1);
-            }
+            alert(res.data.msg);
+            setChange((prev) => prev + 1);
         } catch (err) {
             console.log(err);
         }
