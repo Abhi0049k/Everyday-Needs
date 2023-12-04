@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux"
 import Order from "../components/Order"
 import axios, { AxiosResponse } from "axios"
 import { useNavigate } from "react-router-dom"
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const UserDashboard: FC = () => {
     const [cred, setCred] = useState<credI>({name: "", email:""})
@@ -17,7 +18,7 @@ const UserDashboard: FC = () => {
     const handleLogout = async()=>{
         try{
             dispatch({type: 'REQUEST'});
-            const res: AxiosResponse = await axios.get('http://localhost:8998/users/logout', {
+            const res: AxiosResponse = await axios.get(`${backendServerUrl}users/logout`, {
                 headers:{
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${authstore.token}`
@@ -40,7 +41,7 @@ const UserDashboard: FC = () => {
 
     const getDetails = async()=>{
         try{
-            const res : AxiosResponse = await axios.get('http://localhost:8998/users/', {
+            const res : AxiosResponse = await axios.get(`${backendServerUrl}users/`, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${authstore.token}`

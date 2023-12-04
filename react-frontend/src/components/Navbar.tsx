@@ -39,7 +39,7 @@ const Navbar: FC = () => {
                     <Link to={"/cart"}>
                         <i className="fa-solid fa-bag-shopping text-2xl"></i>
                     </Link>
-                    <Link to={isAuth ? "/userdashboard": "/login"} state={location}>
+                    <Link to={isAuth ? "/userdashboard" : "/login"} state={location}>
                         <i className="fa-solid fa-user text-2xl"></i>
                     </Link>
                     <Link to={"/products"}>
@@ -48,13 +48,13 @@ const Navbar: FC = () => {
                 </div>
             </nav>
             {
-                dropdownContext === 'newArrival' ? <NewArrivals handleDropIn={handleDropIn} handleDropOut={handleDropOut} /> 
-                : dropdownContext === 'casesSleeves' ? <CasesSleeves handleDropIn={handleDropIn} handleDropOut={handleDropOut} /> 
-                : dropdownContext === 'accessories' ? <Accessories handleDropIn={handleDropIn} handleDropOut={handleDropOut} /> 
-                : dropdownContext === 'bagsWallet' ? <BagsWallets handleDropIn={handleDropIn} handleDropOut={handleDropOut} /> 
-                : dropdownContext === 'homeOffice' ? <HomeOffice handleDropIn={handleDropIn} handleDropOut={handleDropOut} /> 
-                : dropdownContext === 'collection' ? <Collections handleDropIn={handleDropIn} handleDropOut={handleDropOut} /> 
-                : null
+                dropdownContext === 'newArrival' ? <NewArrivals handleDropIn={handleDropIn} handleDropOut={handleDropOut} />
+                    : dropdownContext === 'casesSleeves' ? <CasesSleeves handleDropIn={handleDropIn} handleDropOut={handleDropOut} />
+                        : dropdownContext === 'accessories' ? <Accessories handleDropIn={handleDropIn} handleDropOut={handleDropOut} />
+                            : dropdownContext === 'bagsWallet' ? <BagsWallets handleDropIn={handleDropIn} handleDropOut={handleDropOut} />
+                                : dropdownContext === 'homeOffice' ? <HomeOffice handleDropIn={handleDropIn} handleDropOut={handleDropOut} />
+                                    : dropdownContext === 'collection' ? <Collections handleDropIn={handleDropIn} handleDropOut={handleDropOut} />
+                                        : null
             }
         </>
     )

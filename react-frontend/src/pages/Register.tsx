@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { loginResponseI, registerI, storeI } from "../components/types";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const Register: FC = () => {
     const [cred, setCred] = useState<registerI>({ name: '', email: '', password: '' });
@@ -30,7 +31,7 @@ const Register: FC = () => {
     const registerFn = async () => {
         try {
             dispatch({ type: 'REQUEST' })
-            await axios.post('http://localhost:8998/users/register', cred)
+            await axios.post(`${backendServerUrl}users/register`, cred)
             dispatch({ type: 'REGISTER_SUCCESS' });
             navigate('/login');
         } catch (err) {

@@ -1,6 +1,7 @@
 import { FC, useState } from "react"
 import { ChangeI, credI } from "./types"
 import axios, { AxiosResponse } from "axios";
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const PersonalInfo: FC<credI & ChangeI & { token: string }> = ({ name, email, setChange, token }) => {
     const [nameValue, setName] = useState<string>(name!);
@@ -21,7 +22,7 @@ const PersonalInfo: FC<credI & ChangeI & { token: string }> = ({ name, email, se
 
     const handleUpdate = async () => {
         try {
-            let res: AxiosResponse = await axios.patch("http://localhost:8998/users/update",
+            let res: AxiosResponse = await axios.patch(`${backendServerUrl}users/update`,
                 { name: nameValue, email: emailValue },
                 {
                     headers: {

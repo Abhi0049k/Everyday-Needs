@@ -3,23 +3,25 @@ import React, { FC, SetStateAction, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { cartOrderI, storeI } from "./types";
 import CartCard from "./CartCard";
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
-interface orderDetailsI{
+interface orderDetailsI {
     qty: number;
     price: number;
     discount: number;
 }
 
 
-const OrderSummary: FC<{setEmpty: React.Dispatch<SetStateAction<boolean>>}> = ({setEmpty}) => {
+const OrderSummary: FC<{ setEmpty: React.Dispatch<SetStateAction<boolean>> }> = ({ setEmpty }) => {
     const obj: orderDetailsI = {
         qty: 0,
         price: 0,
         discount: 0
     }
-    const authstore = useSelector((store: storeI):{isAuth: boolean; token: string}=>({isAuth: store.authReducer.isAuth, token: store.authReducer.token}));
+    const authstore = useSelector((store: storeI): { isAuth: boolean; token: string } => ({ isAuth: store.authReducer.isAuth, token: store.authReducer.token }));
     const [change, setChange] = useState<number>(0);
-    const [order, setOrder] = useState<Array<cartOrderI>>([{img: "string",
+    const [order, setOrder] = useState<Array<cartOrderI>>([{
+        img: "string",
         price: 1,
         qty: 0,
         title: "string",
@@ -31,44 +33,44 @@ const OrderSummary: FC<{setEmpty: React.Dispatch<SetStateAction<boolean>>}> = ({
         _id: "string",
         __v: "string"
     }]);
-    
-    
-    const getOrders = async()=>{
-        try{
-            let res : AxiosResponse<cartOrderI> =  await axios.get('http://localhost:8998/orders/',{
-                headers:{
+
+
+    const getOrders = async () => {
+        try {
+            let res: AxiosResponse<cartOrderI> = await axios.get(`${backendServerUrl}orders/`, {
+                headers: {
                     'Content-Type': 'application/json',
                     Authorization: `Bearer ${authstore.token}`
                 }
             })
-            if(res.statusText==="OK"){
+            if (res.statusText === "OK") {
                 setOrder(Array.isArray(res.data) ? res.data : [res.data]);
             }
-        }catch(err){
+        } catch (err) {
             console.log(err);
         }
     }
 
-    if(order.length===0) setEmpty(true);
+    if (order.length === 0) setEmpty(true);
 
-    const handleCheckout = async()=>{
-        try{
-            const res: AxiosResponse = await axios.patch('http://localhost:8998/orders/checkout', {},{
-                headers:{
+    const handleCheckout = async () => {
+        try {
+            const res: AxiosResponse = await axios.patch(`${backendServerUrl}orders/checkout`, {}, {
+                headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${authstore.token}`
                 }
             })
-            if(res.statusText==='OK'){
+            if (res.statusText === 'OK') {
                 alert(res.data.msg);
-                setChange((prev)=> prev+1);
+                setChange((prev) => prev + 1);
             }
-        }catch(err){
+        } catch (err) {
             console.log(err);
         }
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         document.title = "Cart";
         getOrders();
     }, [change]);
@@ -77,11 +79,12 @@ const OrderSummary: FC<{setEmpty: React.Dispatch<SetStateAction<boolean>>}> = ({
             <div className="flex md:flex-row flex-col justify-center">
                 <div className="w-full md:w-2/4 md:h-[600px] overflow-y-scroll border md:pt-[60px] px-8 md:px-14 box-border">
                     {
-                        order.map((el, i)=> {
-                            obj.discount+=(el.discount! * el.qty);
-                            obj.price+=(el.price * el.qty);
-                            obj.qty+=el.qty;
-                        return <CartCard key={i} {...el} setChange={setChange} token={authstore.token} />})
+                        order.map((el, i) => {
+                            obj.discount += (el.discount! * el.qty);
+                            obj.price += (el.price * el.qty);
+                            obj.qty += el.qty;
+                            return <CartCard key={i} {...el} setChange={setChange} token={authstore.token} />
+                        })
                     }
                 </div>
                 <div className="w-full md:w-2/4 pt-6 md:pt-14 px-[20px] md:px-[40px] lg:px-[80px] xl:px-[120px] box-border">

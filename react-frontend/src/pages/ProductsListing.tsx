@@ -3,11 +3,12 @@ import { productI } from "../components/types";
 import axios, { AxiosResponse } from "axios";
 import ProductCard from "../components/ProductCard";
 import { useSearchParams } from "react-router-dom";
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const ProductListing : FC = ()=>{
     let [searchParams, setSearchParams] = useSearchParams();
     const category = searchParams.get("category");
-    const url = (category && category!=="all") ? `http://localhost:8998/products/all?category=${category}` : 'http://localhost:8998/products/all';
+    const url = (category && category!=="all") ? `${backendServerUrl}products/all?category=${category}` : `${backendServerUrl}products/all`;
     if(!category || category==='all'){
         setSearchParams({category: "all"});
         document.title = "Products List"

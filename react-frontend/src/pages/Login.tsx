@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { loginI, loginResponseI, storeI } from "../components/types";
 import { useDispatch, useSelector } from "react-redux";
 import axios, { AxiosResponse } from "axios";
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const Login: FC = () => {
     const [cred, setCred] = useState<loginI>({ email: '', password: '' });
@@ -30,7 +31,7 @@ const Login: FC = () => {
     const loginFn = async () => {
         try {
             dispatch({ type: 'REQUEST' })
-            let res: AxiosResponse<loginResponseI> = await axios.post('http://localhost:8998/users/login', cred)
+            let res: AxiosResponse<loginResponseI> = await axios.post(`${backendServerUrl}users/login`, cred)
             const token: string | undefined = res?.data?.token
             if (token) {
                 sessionStorage.setItem("token", token);

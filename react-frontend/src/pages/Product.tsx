@@ -4,6 +4,7 @@ import axios, { AxiosResponse } from "axios";
 import { useParams } from "react-router-dom";
 import ProductDetails from "../components/ProductDetails";
 import { useSelector } from "react-redux";
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const Product: FC = () => {
     const [el, setEl] = useState<productI>();
@@ -24,7 +25,7 @@ const Product: FC = () => {
 
     const addToCart = async (id: string) =>{
         try{
-            const res: AxiosResponse = await axios.post('http://localhost:8998/orders/placeOrder', {productId: id}, {
+            const res: AxiosResponse = await axios.post(`${backendServerUrl}orders/placeOrder`, {productId: id}, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${authstore.token}`
@@ -39,7 +40,7 @@ const Product: FC = () => {
     }
 
     const getProductDetails = async () => {
-        const product: AxiosResponse<productI> = await axios.get(`http://localhost:8998/products/${id}`)
+        const product: AxiosResponse<productI> = await axios.get(`${backendServerUrl}products/${id}`)
         setEl(product.data);
     }
 

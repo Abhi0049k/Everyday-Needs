@@ -1,28 +1,29 @@
 import React, { FC, SetStateAction } from "react";
 import { cartOrderI } from "./types";
 import axios, { AxiosResponse } from "axios";
+const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const CartCard: FC<cartOrderI & { setChange: React.Dispatch<SetStateAction<number>> } & { token: string }> = ({ img, qty, title, _id, price, setChange, token }) => {
     const increaseQty = async () => {
         try {
-            let res = await axios.patch(`http://localhost:8998/orders/increQty/${_id}`, {}, {
+            let res = await axios.patch(`${backendServerUrl}orders/increQty/${_id}`, {}, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`
                 }
             })
-            if(res.statusText==='OK')
-            setChange((prev) => prev + 1)
-    } catch (err) {
-        if (axios.isAxiosError(err)) {
-            const msg = err.response?.data.msg;
-            msg ? alert(msg) : console.log(err);
-        }
+            if (res.statusText === 'OK')
+                setChange((prev) => prev + 1)
+        } catch (err) {
+            if (axios.isAxiosError(err)) {
+                const msg = err.response?.data.msg;
+                msg ? alert(msg) : console.log(err);
+            }
         }
     }
     const decreaseQty = async () => {
         try {
-            let res = await axios.patch(`http://localhost:8998/orders/decreQty/${_id}`, {}, {
+            let res = await axios.patch(`${backendServerUrl}orders/decreQty/${_id}`, {}, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`
@@ -39,17 +40,17 @@ const CartCard: FC<cartOrderI & { setChange: React.Dispatch<SetStateAction<numbe
             }
         }
     }
-    const removeProduct = async()=>{
-        try{
-            const res :AxiosResponse = await axios.delete(`http://localhost:8998/orders/${_id}`,{
+    const removeProduct = async () => {
+        try {
+            const res: AxiosResponse = await axios.delete(`${backendServerUrl}orders/${_id}`, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`
                 }
             })
             console.log(res);
-            if(res.statusText==='OK') setChange((prev)=> prev+1);
-        }catch(err){
+            if (res.statusText === 'OK') setChange((prev) => prev + 1);
+        } catch (err) {
             console.log(err);
         }
     }
