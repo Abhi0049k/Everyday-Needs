@@ -16,7 +16,7 @@ const Router: FC = ()=>{
             <Route path="/" element={<Layout><Home/></Layout>} />
             <Route path="/products" element={<Layout><ProductListing/></Layout>} />
             <Route path="/products/:id" element={<Layout><Product/></Layout>} />
-            <Route path="/cart" element={<Layout><Cart/></Layout>}/>
+            <Route path="/cart" element={<PrivateRoute><Layout><Cart/></Layout></PrivateRoute>}/>
             <Route path="/userdashboard" element={<PrivateRoute><Layout><UserDashboard/></Layout></PrivateRoute>}/>
             <Route path="/register" element={<Register/>}/>
             <Route path="/login" element={<Login/>}/>
