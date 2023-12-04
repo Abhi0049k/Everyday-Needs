@@ -31,8 +31,12 @@ const Login: FC = () => {
         try {
             dispatch({ type: 'REQUEST' })
             let res: AxiosResponse<loginResponseI> = await axios.post('http://localhost:8998/users/login', cred)
-            dispatch({ type: 'LOGIN_SUCCESS', payload: res?.data?.token });
-            location.state ? navigate(location.state) : navigate("/") 
+            const token: string | undefined = res?.data?.token
+            if (token) {
+                sessionStorage.setItem("token", token);
+                dispatch({ type: 'LOGIN_SUCCESS', payload: token });
+                location.state ? navigate(location.state) : navigate("/")
+            }
         } catch (err) {
             if (axios.isAxiosError<loginResponseI>(err)) {
                 const { response } = err;
@@ -65,7 +69,7 @@ const Login: FC = () => {
     return (
         <>
             <div className="flex flex-row w-full h-screen justify-center items-center">
-            <img src="/Everyday needs-logos_black.png" alt="bgimg" className="w-full absolute z-[-10] drop-shadow-lg" />
+                <img src="/Everyday needs-logos_black.png" alt="bgimg" className="w-full absolute z-[-10] drop-shadow-lg" />
                 <div className="p-7 flex flex-col shadow-xl w-96 rounded-lg bg-opacity-50 bg-gray-100">
                     <h1 className="text-4xl font-semibold">Login</h1>
                     <form className="flex flex-col gap-4 mt-4" onSubmit={handleSubmit}>
