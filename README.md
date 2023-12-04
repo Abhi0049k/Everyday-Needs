@@ -14,6 +14,7 @@ This is an individual project built within a span of five days.
 Backend is deployed on Cyclic:  [Deployed Link](https://shy-red-rabbit-sari.cyclic.app/)
 
 Frontend[HTML, CSS and JS] is deployed on Netlify: [Deployed Link](https://inquisitive-froyo-761ed8.netlify.app/)
+
 Frontend[React.js and TypeScript] is deployed on Netlify: [Deployed Link](https://everyday-needs-abhi0049k.vercel.app/)
 ## Features
 
