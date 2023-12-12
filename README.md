@@ -66,33 +66,46 @@ User Dashboard
 
 ![userdash](https://github.com/Abhi0049k/stark-business-7502/assets/112062354/5e61e501-b72a-4cb0-bbad-5599b7858010)
 
-## Run Locally
+### Running Locally with npm:
 
-Clone the project
+1. Clone the project:
 
-```bash
-  git@github.com:Abhi0049k/Everyday-Needs.git
-```
-Copy the .env.example to .env for backend and react-frontend
+    ```bash
+    git clone git@github.com:Abhi0049k/Everyday-Needs.git
+    ```
 
-Go to backend folder and react-frontend folder and run
+2. Copy the `.env.example` to `.env` for both the backend and react-frontend.
 
-```bash
-npm install or npm i
-```
+3. Navigate to the `backend` folder and the `react-frontend` folder separately and install dependencies:
 
-Now run both backend and react-frontend by running 
+    ```bash
+    cd backend
+    npm install
+    ```
 
-```bash
-npm run dev
-```
+    ```bash
+    cd react-frontend
+    npm install
+    ```
 
-or
+4. Run both the backend and react-frontend:
 
-You can simply use Docker create an image and run a container of that image
+    ```bash
+    npm run dev
+    ```
 
-In the root directory you can run command:
+### Running Locally with Docker:
 
-```bash
-docker-compose up
-```
+1. Clone the project:
+
+    ```bash
+    git clone git@github.com:Abhi0049k/Everyday-Needs.git
+    ```
+
+2. Navigate to the project's root directory.
+
+3. Use Docker Compose to create an image and run a container:
+
+    ```bash
+    docker-compose up
+    ```
