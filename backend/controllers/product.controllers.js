@@ -1,11 +1,18 @@
 const productModel = require('../models/product.model');
 
-const allProducts = async (req, res) => {
-    try {
-        const list = await productModel.find(req.query);
-        res.status(200).send(list);
-    } catch (err) {
-        res.status(500).send({ msg: err.message });
+
+const allProducts = async (req, res)=>{
+    try{
+        const {product} = req.query;
+        if(product){
+            const list = await productModel.find({ title: { $regex: product, $options: "i" } })
+            return res.status(200).send(list);
+        }else{
+            const list = await productModel.find(req.query);
+            return res.status(200).send(list);
+        }
+    }catch(err){
+        res.status(500).send({msg: err.message});
     }
 }
 
