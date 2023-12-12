@@ -15,7 +15,7 @@ Backend is deployed on Cyclic:  [Deployed Link](https://shy-red-rabbit-sari.cycl
 
 Frontend[HTML, CSS and JS] is deployed on Netlify: [Deployed Link](https://inquisitive-froyo-761ed8.netlify.app/)
 
-Frontend[React.js and TypeScript] is deployed on Netlify: [Deployed Link](https://everyday-needs-abhi0049k.vercel.app/)
+Frontend[React.js and TypeScript] is deployed on Vercel: [Deployed Link](https://everyday-needs-abhi0049k.vercel.app/)
 ## Features
 
 - User Sign In
@@ -23,6 +23,7 @@ Frontend[React.js and TypeScript] is deployed on Netlify: [Deployed Link](https:
 - User Logout
 - Add to Cart
 - Place an order
+- Search Product
 - Update User Details
 - Increase/Decrease quantity for a particular order
 - Search Product
@@ -72,25 +73,26 @@ Clone the project
 ```bash
   git@github.com:Abhi0049k/Everyday-Needs.git
 ```
+Copy the .env.example to .env for backend and react-frontend
 
-Go to the backend directory
-
-```bash
-  cd backend
-```
-
-Install dependencies
+Go to backend folder and react-frontend folder and run
 
 ```bash
-  npm install
+npm install or npm i
 ```
-##
-Before running the Backend server on your local system setup the .env
-##
 
-Start the server
+Now run both backend and react-frontend by running 
 
 ```bash
-  npm start
+npm run dev
 ```
 
+or
+
+You can simply use Docker create an image and run a container of that image
+
+In the root directory you can run command:
+
+```bash
+docker-compose up
+```
