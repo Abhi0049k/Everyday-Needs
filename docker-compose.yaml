@@ -1,0 +1,29 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./react-frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - "5173:5173"  # Expose the frontend on port 5173
+    networks:
+      - app-network
+    depends_on:
+      - backend
+    # Add other configurations as needed
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend
+    ports:
+      - "8998:8998"  # Expose the backend on port 8998
+    networks:
+      - app-network
+    # Add other configurations as needed
+
+networks:
+  app-network:
+    driver: bridge
