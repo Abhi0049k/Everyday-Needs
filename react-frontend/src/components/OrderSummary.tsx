@@ -18,6 +18,7 @@ const OrderSummary: FC<{ setEmpty: React.Dispatch<SetStateAction<boolean>> }> = 
         price: 0,
         discount: 0
     }
+    const [payment, setPayment] = useState<boolean>(false);
     const authstore = useSelector((store: storeI): { isAuth: boolean; token: string } => ({ isAuth: store.authReducer.isAuth, token: store.authReducer.token }));
     const [change, setChange] = useState<number>(0);
     const [order, setOrder] = useState<Array<cartOrderI>>([{
@@ -61,6 +62,7 @@ const OrderSummary: FC<{ setEmpty: React.Dispatch<SetStateAction<boolean>> }> = 
             })
             alert(res.data.msg);
             setChange((prev) => prev + 1);
+
         } catch (err) {
             console.log(err);
         }
