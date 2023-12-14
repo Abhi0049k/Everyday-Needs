@@ -18,4 +18,6 @@ orderRouter.patch('/decreQty/:id', decreQty)
 
 orderRouter.post('/placeOrder', placeOrder)
 
+orderRouter.post('/createPayment', )
+
 module.exports = orderRouter;
