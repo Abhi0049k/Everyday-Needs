@@ -7,10 +7,11 @@ const backendServerUrl = import.meta.env.VITE_BACKEND_SERVER_URL
 
 const Login: FC = () => {
     const [cred, setCred] = useState<loginI>({ email: '', password: '' });
-
+    const storedToken : string | null = sessionStorage.getItem('token');
     const location = useLocation();
     const navigate = useNavigate();
     const dispatch = useDispatch();
+    if(storedToken) dispatch({ type: 'LOGIN_SUCCESS', payload: storedToken });
 
     const { isAuth, isLoading, isError, errorMessage } = useSelector((store: storeI) => ({
         isAuth: store.authReducer.isAuth,

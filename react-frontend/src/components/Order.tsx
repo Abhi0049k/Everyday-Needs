@@ -29,7 +29,8 @@ const Order: FC<OrderI> = ({ token }) => {
     return (
         <div className="w-full md:h-full overflow-y-scroll md:pt-[12px] lg:px-20 md:px-10 box-border flex flex-col gap-2">
             {
-                orders?.map((el: bookedOrderI, i: number) => <OrderCard key={i} img={el.img} title={el.title} price={el.price} qty={el.qty} />)
+                (orders.length!==0) ? (orders?.map((el: bookedOrderI, i: number) => <OrderCard key={i} img={el.img} title={el.title} price={el.price} qty={el.qty} />))
+                : (<div className="flex h-full w-full justify-center items-center"><h1 className="text-2xl font-semibold text-[#20a87e]">As of yet, you have not placed any orders.</h1></div>)
             }
         </div>
     )

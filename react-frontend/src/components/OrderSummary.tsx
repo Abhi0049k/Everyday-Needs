@@ -60,6 +60,7 @@ const OrderSummary: FC<{ setEmpty: React.Dispatch<SetStateAction<boolean>> }> = 
                     'Authorization': `Bearer ${authstore.token}`
                 }
             })
+            console.log(res);
             alert(res.data.msg);
             setChange((prev) => prev + 1);
 

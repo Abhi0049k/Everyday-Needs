@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { userOrders, bookedOrders, deleteOrder, checkoutOrder, increQty, decreQty, placeOrder } = require('../controllers/order.controllers');
+const { userOrders, bookedOrders, deleteOrder, checkoutOrder, increQty, decreQty, placeOrder, createPayment } = require('../controllers/order.controllers');
 
 
 const orderRouter = Router();
@@ -18,6 +18,6 @@ orderRouter.patch('/decreQty/:id', decreQty)
 
 orderRouter.post('/placeOrder', placeOrder)
 
-orderRouter.post('/createPayment', )
+orderRouter.post('/createPayment', createPayment)
 
 module.exports = orderRouter;
