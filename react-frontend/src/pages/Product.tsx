@@ -31,7 +31,6 @@ const Product: FC = () => {
                     'Authorization': `Bearer ${authstore.token}`
                 }
             })
-            console.log(res);
             alert('Product Added')
         }catch(err){
             console.log('Something went wrong');

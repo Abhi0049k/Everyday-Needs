@@ -63,12 +63,12 @@ const CartCard: FC<cartOrderI & { setChange: React.Dispatch<SetStateAction<numbe
                 <div className="w-[66%] justify-around p-2">
                     <p className="text-lg md:text-xl font-semibold">{title}</p>
                     <h3 className="text-lg md:text-xl md:font-semibold md:pt-3 md:pb-8">Rs. {price}</h3>
-                    <div className="flex h-14 justify-between">
+                    <div className="flex h-12 justify-between">
                         <div className="border-t border-b flex">
                             <button className=" border-r border-l" onClick={() => handleChangeQty(-1)}>
                                 <img src="https://images.dailyobjects.com/marche/icons/minus-1.png?tr=cm-pad_resize,v-2,w-14,dpr-1" alt="minus" className="h-[30px] w-[30px] object-none" />
                             </button>
-                            <span className="m-3 text-xl">{qty}</span>
+                            <span className="m-3 text-xl flex justify-center items-center">{qty}</span>
                             <button className="border-r border-l" onClick={() => handleChangeQty(1)}>
                                 <img src="https://images.dailyobjects.com/marche/icons/plus.png?tr=cm-pad_resize,v-2,w-14,dpr-1" alt="plus" className="h-[30px] w-[30px] object-none" />
                             </button>
