@@ -23,6 +23,7 @@ Frontend[React.js and TypeScript] is deployed on Vercel: [Deployed Link](https:/
 - User Logout
 - Add to Cart
 - Place an order
+- Razor Payment Gateway
 - Search Product
 - Update User Details
 - Increase/Decrease quantity for a particular order
