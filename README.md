@@ -10,7 +10,7 @@ This is an individual project built within a span of five days.
 
 ## Demo
 
-[demo](https://drive.google.com/file/d/17KWSxvsrQiNIcQEwf7C9Fr5xGITfRDgP/view?usp=sharing)
+[demo](https://vimeo.com/912994748?share=copy)
 
 ## Deployment
 
