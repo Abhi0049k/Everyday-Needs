@@ -12,7 +12,6 @@ const ProductCard: FC<productI> = ({ _id, title, price, offer, img, deleteValue 
     }
     return (
         <>
-        {/* Go Beyond, Plus Ultra */}
             <div className="lg:w-96 w-2/5 p-5 box-border bg-white lg:h-[500px] md:h-[560px] h-[340px]">
                 <Link to={`/products/${_id}`}>
                     <img src={`${imge}`} alt="" className="lg:w-96 w-full h-4/5 object-cover" onMouseEnter={handleIn} onMouseLeave={handleOut} />
